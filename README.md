@@ -1,1 +1,1 @@
-# Power-Of-Friendship
+# Wannabe Hero: The Power of Friendship
