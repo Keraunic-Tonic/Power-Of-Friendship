@@ -427,7 +427,7 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 11467570, guid: 45616935e4fe10f48b62da1347801a16, type: 3}
       propertyPath: m_Text
-      value: 'Wannabe Hero
+      value: 'Wannabe Hero:
 
         The Power of
 
