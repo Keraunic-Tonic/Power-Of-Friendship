@@ -797,6 +797,7 @@ GameObject:
   - component: {fileID: 814093002}
   - component: {fileID: 814093001}
   - component: {fileID: 814093000}
+  - component: {fileID: 814093003}
   m_Layer: 5
   m_Name: AidaNeoButton
   m_TagString: Untagged
@@ -866,7 +867,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 814093001}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 814093003}
+        m_MethodName: ChooseScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &814093001
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -904,6 +916,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 814092998}
   m_CullTransparentMesh: 0
+--- !u!114 &814093003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 814092998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67a7f5baa60497b4da298c2f33f25cd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &838187032
 GameObject:
   m_ObjectHideFlags: 0
@@ -916,6 +940,7 @@ GameObject:
   - component: {fileID: 838187036}
   - component: {fileID: 838187035}
   - component: {fileID: 838187034}
+  - component: {fileID: 838187037}
   m_Layer: 5
   m_Name: BlazeEganButton
   m_TagString: Untagged
@@ -985,7 +1010,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 838187035}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 838187037}
+        m_MethodName: ChooseScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &838187035
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1023,6 +1059,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 838187032}
   m_CullTransparentMesh: 0
+--- !u!114 &838187037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 838187032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67a7f5baa60497b4da298c2f33f25cd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &882495004
 GameObject:
   m_ObjectHideFlags: 0
@@ -1418,6 +1466,7 @@ GameObject:
   - component: {fileID: 1581712981}
   - component: {fileID: 1581712980}
   - component: {fileID: 1581712979}
+  - component: {fileID: 1581712982}
   m_Layer: 5
   m_Name: DahliaRayButton
   m_TagString: Untagged
@@ -1487,7 +1536,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1581712980}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1581712982}
+        m_MethodName: ChooseScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1581712980
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1525,6 +1585,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1581712977}
   m_CullTransparentMesh: 0
+--- !u!114 &1581712982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581712977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67a7f5baa60497b4da298c2f33f25cd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1844530041
 GameObject:
   m_ObjectHideFlags: 0
@@ -1601,7 +1673,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1844530041}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -597.36, y: -397.27774, z: 0}
+  m_LocalPosition: {x: -597.36, y: -397.025, z: 0}
   m_LocalScale: {x: 0.53764, y: 0.53764, z: 0.53764}
   m_Children: []
   m_Father: {fileID: 893058064}
