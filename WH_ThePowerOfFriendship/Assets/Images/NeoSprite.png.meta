@@ -4,13 +4,13 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -9021561533785349375
-    second: NeoSprite_0
+    second: NeoSprite_R
   - first:
       213: -4722030270601884272
     second: NeoSprite_1
   - first:
       213: 387225602234611429
-    second: NeoSprite_2
+    second: NeoSprite_L
   - first:
       213: 5725556781680063963
     second: NeoSprite_3
@@ -171,7 +171,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: NeoSprite_0
+      name: NeoSprite_R
       rect:
         serializedVersion: 2
         x: 82
@@ -179,7 +179,7 @@ TextureImporter:
         width: 400
         height: 1028
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -200,7 +200,7 @@ TextureImporter:
         width: 52
         height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -213,7 +213,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NeoSprite_2
+      name: NeoSprite_L
       rect:
         serializedVersion: 2
         x: 520
@@ -221,7 +221,7 @@ TextureImporter:
         width: 400
         height: 1029
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -242,7 +242,7 @@ TextureImporter:
         width: 50
         height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

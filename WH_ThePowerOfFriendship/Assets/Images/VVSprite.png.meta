@@ -4,10 +4,10 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -2308080813011360481
-    second: VVSprite_0
+    second: VVSprite_R
   - first:
       213: 8822068282822929682
-    second: VVSprite_1
+    second: VVSprite_L
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -165,7 +165,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: VVSprite_0
+      name: VVSprite_R
       rect:
         serializedVersion: 2
         x: 38
@@ -173,7 +173,7 @@ TextureImporter:
         width: 418
         height: 1018
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -186,7 +186,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VVSprite_1
+      name: VVSprite_L
       rect:
         serializedVersion: 2
         x: 546
@@ -194,7 +194,7 @@ TextureImporter:
         width: 418
         height: 1018
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

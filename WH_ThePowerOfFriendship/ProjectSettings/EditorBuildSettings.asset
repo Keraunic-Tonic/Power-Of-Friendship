@@ -14,4 +14,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/IntroScene.unity
     guid: e7d21f134dad0c34bb91ae00b2783891
+  - enabled: 1
+    path: Assets/Scenes/SceneSelection.unity
+    guid: 29c473a2d2991eb48b4ac06db8d60dff
+  - enabled: 1
+    path: Assets/Scenes/DahliaRayScene.unity
+    guid: 1204d40d50118e841a1ea2f664111918
+  - enabled: 1
+    path: Assets/Scenes/BlazeEganScene.unity
+    guid: e3462c885681d0a418912be183fce563
+  - enabled: 1
+    path: Assets/Scenes/AidaNeoScene.unity
+    guid: b0c017e4af2e0754bbf79a0091a3191a
+  - enabled: 1
+    path: Assets/Scenes/EndingScene.unity
+    guid: 46fd2ead35959f8438e3505fbcbebe76
   m_configObjects: {}
