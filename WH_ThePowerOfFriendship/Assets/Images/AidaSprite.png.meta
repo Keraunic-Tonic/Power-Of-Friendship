@@ -4,10 +4,10 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 6255982123091723213
-    second: AidaSprite_0
+    second: AidaSprite_R
   - first:
       213: 3662210725241827039
-    second: AidaSprite_1
+    second: AidaSprite_L
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -165,7 +165,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: AidaSprite_0
+      name: AidaSprite_R
       rect:
         serializedVersion: 2
         x: 101
@@ -173,7 +173,7 @@ TextureImporter:
         width: 305
         height: 948
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -186,7 +186,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AidaSprite_1
+      name: AidaSprite_L
       rect:
         serializedVersion: 2
         x: 604
@@ -194,7 +194,7 @@ TextureImporter:
         width: 305
         height: 948
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

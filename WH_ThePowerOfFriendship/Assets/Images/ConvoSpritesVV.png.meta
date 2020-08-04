@@ -1,13 +1,34 @@
 fileFormatVersion: 2
-guid: 71f0cfdaac91df742becceab581b4206
+guid: 02824d0b421cd534abfaf0d33d178b29
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2308080813011360481
-    second: VVSprite_R
+      213: 5823199331949568763
+    second: ConvoSpritesVV_Default
   - first:
-      213: 8822068282822929682
-    second: VVSprite_L
+      213: -6657642345778934821
+    second: ConvoSpritesVV_Angry
+  - first:
+      213: 3030967403125623735
+    second: ConvoSpritesVV_2
+  - first:
+      213: 3776145807223891931
+    second: ConvoSpritesVV_3
+  - first:
+      213: 3531201329338938164
+    second: ConvoSpritesVV_4
+  - first:
+      213: 3799740058345491434
+    second: ConvoSpritesVV_5
+  - first:
+      213: -3747348748362213598
+    second: ConvoSpritesVV_6
+  - first:
+      213: -1712077079203839039
+    second: ConvoSpritesVV_7
+  - first:
+      213: -666123461842045165
+    second: ConvoSpritesVV_Shocked
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -165,13 +186,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: VVSprite_R
+      name: ConvoSpritesVV_Default
       rect:
         serializedVersion: 2
-        x: 38
-        y: 14
-        width: 418
-        height: 1018
+        x: 125
+        y: 1505
+        width: 1282
+        height: 1475
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f152093babc08ffd0800000000000000
-      internalID: -2308080813011360481
+      spriteID: bf2652590f820d050800000000000000
+      internalID: 5823199331949568763
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VVSprite_L
+      name: ConvoSpritesVV_Angry
       rect:
         serializedVersion: 2
-        x: 546
-        y: 14
-        width: 418
-        height: 1018
+        x: 1472
+        y: 1463
+        width: 1409
+        height: 1537
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,8 +221,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21da6e5ac584e6a70800000000000000
-      internalID: 8822068282822929682
+      spriteID: bdb8f3a6f8d4b93a0800000000000000
+      internalID: -6657642345778934821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ConvoSpritesVV_Shocked
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 0
+        width: 1324
+        height: 1461
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 317f950ad3471c6f0800000000000000
+      internalID: -666123461842045165
       vertices: []
       indices: 
       edges: []
