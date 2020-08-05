@@ -11,9 +11,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/OpeningScene.unity
     guid: 13c13d236040ca54590de35bdf10f292
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/IntroScene.unity
     guid: e7d21f134dad0c34bb91ae00b2783891
+  - enabled: 1
+    path: Assets/Scenes/AtTheDoor.unity
+    guid: 3726925b6952eae4eb2ccb2fa9e64ad0
   - enabled: 1
     path: Assets/Scenes/SceneSelection.unity
     guid: 29c473a2d2991eb48b4ac06db8d60dff
