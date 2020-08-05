@@ -1,37 +1,43 @@
 fileFormatVersion: 2
-guid: 065b350042bdbd64589d073dcb42055d
+guid: 081b25c73f0a7534b9f0eb216a1b70de
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5191192996256700344
-    second: ConvoSpritesNeo_Default
+      213: 7785263938895872506
+    second: ConvoSpritesAida_0
   - first:
-      213: 1581569604911802205
-    second: GameJam2020ConvoSprites_1
+      213: 4243530023876577865
+    second: ConvoSpritesAida_Default
   - first:
-      213: 6406221563344988300
-    second: ConvoSpritesNeo_Pout
+      213: 8789121120510110453
+    second: ConvoSpritesAida_2
   - first:
-      213: -7805358465169984219
-    second: GameJam2020ConvoSprites_3
+      213: -6688305747619087470
+    second: ConvoSpritesAida_Snarky
   - first:
-      213: -1307560016958180288
-    second: GameJam2020ConvoSprites_4
+      213: 3728315875615413924
+    second: ConvoSpritesAida_4
   - first:
-      213: 5252411377890072626
-    second: ConvoSpritesNeo_Flashy
+      213: 9080683841614810696
+    second: ConvoSpritesAida_5
   - first:
-      213: -7259239339028620047
-    second: ConvoSpirtesNeo_Sincere
+      213: -4847099269401884145
+    second: ConvoSpritesAida_6
   - first:
-      213: 3913996041979277306
-    second: GameJam2020ConvoSprites_7
+      213: -8577448578486723663
+    second: ConvoSpritesAida_7
   - first:
-      213: 6494590716321842892
-    second: GameJam2020ConvoSprites_8
+      213: 6429219481849235784
+    second: ConvoSpritesAida_8
   - first:
-      213: 3663807827381355682
-    second: GameJam2020ConvoSprites_9
+      213: 5988628538147161251
+    second: ConvoSpritesAida_Smile
+  - first:
+      213: 873386942658233475
+    second: ConvoSpritesAida_Ponder
+  - first:
+      213: -3481145774959932930
+    second: ConvoSpritesAida_11
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -189,13 +195,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ConvoSpritesNeo_Default
+      name: ConvoSpritesAida_Default
       rect:
         serializedVersion: 2
-        x: 285
-        y: 1507
-        width: 1308
-        height: 1493
+        x: 257
+        y: 1504
+        width: 940
+        height: 1496
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,20 +209,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 848af99597d25f7b0800000000000000
-      internalID: -5191192996256700344
+      spriteID: 94a4ed2d21c04ea30800000000000000
+      internalID: 4243530023876577865
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ConvoSpritesNeo_Pout
+      name: ConvoSpritesAida_Snarky
       rect:
         serializedVersion: 2
-        x: 1811
-        y: 1523
-        width: 1024
-        height: 1477
+        x: 1778
+        y: 1504
+        width: 939
+        height: 1496
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,20 +230,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8820abf19877e850800000000000000
-      internalID: 6406221563344988300
+      spriteID: 29bf5f3db5d5e23a0800000000000000
+      internalID: -6688305747619087470
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ConvoSpritesNeo_Flashy
+      name: ConvoSpritesAida_Smile
       rect:
         serializedVersion: 2
-        x: 52
+        x: 258
         y: 0
-        width: 1541
-        height: 1440
+        width: 939
+        height: 1445
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -245,20 +251,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2389b59d15054e840800000000000000
-      internalID: 5252411377890072626
+      spriteID: 3a447042de1eb1350800000000000000
+      internalID: 5988628538147161251
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ConvoSpirtesNeo_Sincere
+      name: ConvoSpritesAida_Ponder
       rect:
         serializedVersion: 2
-        x: 1792
+        x: 1791
         y: 0
-        width: 1045
-        height: 1470
+        width: 822
+        height: 1464
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,8 +272,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1fc58a14840024b90800000000000000
-      internalID: -7259239339028620047
+      spriteID: 384cb940cc4ee1c00800000000000000
+      internalID: 873386942658233475
       vertices: []
       indices: 
       edges: []
