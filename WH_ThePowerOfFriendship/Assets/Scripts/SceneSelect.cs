@@ -26,6 +26,10 @@ public class SceneSelect : MonoBehaviour
         {
             SceneManager.LoadScene("AtTheDoor");
         }
+        else if (EventSystem.current.currentSelectedGameObject.name == "EndGameButton")
+        {
+            SceneManager.LoadScene("EndingScene");
+        }
         else
         {
             SceneManager.LoadScene("DahliaRayScene");

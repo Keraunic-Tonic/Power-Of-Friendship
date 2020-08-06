@@ -1194,7 +1194,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -20
   m_TargetDisplay: 0
 --- !u!224 &1774268799
 RectTransform:
@@ -2413,7 +2413,7 @@ PrefabInstance:
     - target: {fileID: 3191684682842534833, guid: 4b684d72d7e0b004ea4f89e1f7831d56,
         type: 3}
       propertyPath: m_Name
-      value: VVPlayer
+      value: V.V.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b684d72d7e0b004ea4f89e1f7831d56, type: 3}
@@ -2461,7 +2461,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6401274732928607435}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1963897077}
@@ -2545,7 +2545,7 @@ MonoBehaviour:
   previousSceneName: 
   fadeInOnStart: 0
   fadeSpeed: 0.5
-  cameraOnStart: {fileID: 0}
+  cameraOnStart: {fileID: 6401274732918395179}
   playerIDs: 
   limitByPlayer: 0
   limitByActive: 0
@@ -2705,7 +2705,7 @@ MonoBehaviour:
   interactionSource: 0
   limitToCamera: {fileID: 0}
   interactiveBoundary: {fileID: 0}
-  hotspotName: 
+  hotspotName: Gem
   lineID: -1
   highlight: {fileID: 0}
   walkToMarker: {fileID: 0}
