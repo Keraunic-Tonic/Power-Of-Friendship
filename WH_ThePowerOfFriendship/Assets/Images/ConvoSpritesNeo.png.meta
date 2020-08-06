@@ -1,37 +1,37 @@
 fileFormatVersion: 2
-guid: 3db17f7b95163f94189f7e720607e0ac
+guid: 065b350042bdbd64589d073dcb42055d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3901240969778709204
+      213: -5191192996256700344
     second: ConvoSpritesNeo_Default
   - first:
-      213: 6761908171845651782
-    second: ConvoSpritesNeo_1
+      213: 1581569604911802205
+    second: GameJam2020ConvoSprites_1
   - first:
-      213: 8551029352748514365
+      213: 6406221563344988300
     second: ConvoSpritesNeo_Pout
   - first:
-      213: -1585645218232537706
-    second: ConvoSpritesNeo_3
+      213: -7805358465169984219
+    second: GameJam2020ConvoSprites_3
   - first:
-      213: 4951539628229761953
-    second: ConvoSpritesNeo_4
+      213: -1307560016958180288
+    second: GameJam2020ConvoSprites_4
   - first:
-      213: -6763691596171443228
+      213: 5252411377890072626
     second: ConvoSpritesNeo_Flashy
   - first:
-      213: 3877871674673620711
-    second: ConvoSpritesNeo_Sincere
+      213: -7259239339028620047
+    second: ConvoSpirtesNeo_Sincere
   - first:
-      213: 5923871114999913462
-    second: ConvoSpritesNeo_7
+      213: 3913996041979277306
+    second: GameJam2020ConvoSprites_7
   - first:
-      213: 4555329685571909250
-    second: ConvoSpritesNeo_8
+      213: 6494590716321842892
+    second: GameJam2020ConvoSprites_8
   - first:
-      213: 1269451044078228530
-    second: ConvoSpritesNeo_9
+      213: 3663807827381355682
+    second: GameJam2020ConvoSprites_9
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -194,7 +194,7 @@ TextureImporter:
         serializedVersion: 2
         x: 285
         y: 1507
-        width: 1160
+        width: 1308
         height: 1493
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -203,8 +203,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d24cda0efdf32630800000000000000
-      internalID: 3901240969778709204
+      spriteID: 848af99597d25f7b0800000000000000
+      internalID: -5191192996256700344
       vertices: []
       indices: 
       edges: []
@@ -224,8 +224,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3c738a14eb5ba670800000000000000
-      internalID: 8551029352748514365
+      spriteID: c8820abf19877e850800000000000000
+      internalID: 6406221563344988300
       vertices: []
       indices: 
       edges: []
@@ -236,7 +236,7 @@ TextureImporter:
         serializedVersion: 2
         x: 52
         y: 0
-        width: 1393
+        width: 1541
         height: 1440
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -245,14 +245,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e308ef245a8222a0800000000000000
-      internalID: -6763691596171443228
+      spriteID: 2389b59d15054e840800000000000000
+      internalID: 5252411377890072626
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ConvoSpritesNeo_Sincere
+      name: ConvoSpirtesNeo_Sincere
       rect:
         serializedVersion: 2
         x: 1792
@@ -266,8 +266,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e668750eb7f0d530800000000000000
-      internalID: 3877871674673620711
+      spriteID: 1fc58a14840024b90800000000000000
+      internalID: -7259239339028620047
       vertices: []
       indices: 
       edges: []
