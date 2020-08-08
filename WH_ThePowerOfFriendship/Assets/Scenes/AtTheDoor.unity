@@ -697,7 +697,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 670
+    y: 715
     width: 300
     height: 202
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -789,7 +789,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 453
+    y: 498
     width: 300
     height: 187
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -911,7 +911,7 @@ MonoBehaviour:
     x: 14
     y: 231
     width: 300
-    height: 192
+    height: 237
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 3666332733581672046}
@@ -920,8 +920,9 @@ MonoBehaviour:
   messageParameterID: -1
   isPlayer: 1
   playerID: -1
-  speaker: {fileID: 0}
-  messageText: 
+  speaker: {fileID: 6022514048345332310}
+  messageText: It looks like in order to open that door, I'll need to fill these
+    orbs with the essence of the six schools of magic.
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -1180,7 +1181,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 902
+    y: 947
     width: 300
     height: 202
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -3114,6 +3115,131 @@ PrefabInstance:
       propertyPath: m_Name
       value: V.V.
       objectReference: {fileID: 0}
+    - target: {fileID: 3191684682842536500, guid: 4b684d72d7e0b004ea4f89e1f7831d56,
+        type: 3}
+      propertyPath: expressions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191684682842536500, guid: 4b684d72d7e0b004ea4f89e1f7831d56,
+        type: 3}
+      propertyPath: useExpressions
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191684682842536500, guid: 4b684d72d7e0b004ea4f89e1f7831d56,
+        type: 3}
+      propertyPath: expressions.Array.data[0].label
+      value: Default
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191684682842536500, guid: 4b684d72d7e0b004ea4f89e1f7831d56,
+        type: 3}
+      propertyPath: expressions.Array.data[0].portraitIcon.numFrames
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191684682842536500, guid: 4b684d72d7e0b004ea4f89e1f7831d56,
+        type: 3}
+      propertyPath: expressions.Array.data[0].portraitIcon.numRows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191684682842536500, guid: 4b684d72d7e0b004ea4f89e1f7831d56,
+        type: 3}
+      propertyPath: expressions.Array.data[0].portraitIcon.numCols
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191684682842536500, guid: 4b684d72d7e0b004ea4f89e1f7831d56,
+        type: 3}
+      propertyPath: expressions.Array.data[0].portraitIcon.size
+      value: 0.015
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191684682842536500, guid: 4b684d72d7e0b004ea4f89e1f7831d56,
+        type: 3}
+      propertyPath: expressions.Array.data[0].portraitIcon.animSpeed
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191684682842536500, guid: 4b684d72d7e0b004ea4f89e1f7831d56,
+        type: 3}
+      propertyPath: expressions.Array.data[1].ID
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191684682842536500, guid: 4b684d72d7e0b004ea4f89e1f7831d56,
+        type: 3}
+      propertyPath: expressions.Array.data[1].label
+      value: Angry
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191684682842536500, guid: 4b684d72d7e0b004ea4f89e1f7831d56,
+        type: 3}
+      propertyPath: expressions.Array.data[1].portraitIcon.numFrames
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191684682842536500, guid: 4b684d72d7e0b004ea4f89e1f7831d56,
+        type: 3}
+      propertyPath: expressions.Array.data[1].portraitIcon.numRows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191684682842536500, guid: 4b684d72d7e0b004ea4f89e1f7831d56,
+        type: 3}
+      propertyPath: expressions.Array.data[1].portraitIcon.numCols
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191684682842536500, guid: 4b684d72d7e0b004ea4f89e1f7831d56,
+        type: 3}
+      propertyPath: expressions.Array.data[1].portraitIcon.size
+      value: 0.015
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191684682842536500, guid: 4b684d72d7e0b004ea4f89e1f7831d56,
+        type: 3}
+      propertyPath: expressions.Array.data[1].portraitIcon.animSpeed
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191684682842536500, guid: 4b684d72d7e0b004ea4f89e1f7831d56,
+        type: 3}
+      propertyPath: expressions.Array.data[2].ID
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191684682842536500, guid: 4b684d72d7e0b004ea4f89e1f7831d56,
+        type: 3}
+      propertyPath: expressions.Array.data[2].label
+      value: Shocked
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191684682842536500, guid: 4b684d72d7e0b004ea4f89e1f7831d56,
+        type: 3}
+      propertyPath: expressions.Array.data[2].portraitIcon.numFrames
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191684682842536500, guid: 4b684d72d7e0b004ea4f89e1f7831d56,
+        type: 3}
+      propertyPath: expressions.Array.data[2].portraitIcon.numRows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191684682842536500, guid: 4b684d72d7e0b004ea4f89e1f7831d56,
+        type: 3}
+      propertyPath: expressions.Array.data[2].portraitIcon.numCols
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191684682842536500, guid: 4b684d72d7e0b004ea4f89e1f7831d56,
+        type: 3}
+      propertyPath: expressions.Array.data[2].portraitIcon.size
+      value: 0.015
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191684682842536500, guid: 4b684d72d7e0b004ea4f89e1f7831d56,
+        type: 3}
+      propertyPath: expressions.Array.data[2].portraitIcon.animSpeed
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191684682842536500, guid: 4b684d72d7e0b004ea4f89e1f7831d56,
+        type: 3}
+      propertyPath: expressions.Array.data[2].portraitIcon.texture
+      value: 
+      objectReference: {fileID: 2800000, guid: 02824d0b421cd534abfaf0d33d178b29, type: 3}
+    - target: {fileID: 3191684682842536500, guid: 4b684d72d7e0b004ea4f89e1f7831d56,
+        type: 3}
+      propertyPath: expressions.Array.data[1].portraitIcon.texture
+      value: 
+      objectReference: {fileID: 2800000, guid: 02824d0b421cd534abfaf0d33d178b29, type: 3}
+    - target: {fileID: 3191684682842536500, guid: 4b684d72d7e0b004ea4f89e1f7831d56,
+        type: 3}
+      propertyPath: expressions.Array.data[0].portraitIcon.texture
+      value: 
+      objectReference: {fileID: 2800000, guid: 02824d0b421cd534abfaf0d33d178b29, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b684d72d7e0b004ea4f89e1f7831d56, type: 3}
 --- !u!1 &6022514048345332304 stripped
@@ -3164,6 +3290,18 @@ MonoBehaviour:
   constantID: 4528
   retainInPrefab: 0
   autoManual: 0
+--- !u!114 &6022514048345332310 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3191684682842536500, guid: 4b684d72d7e0b004ea4f89e1f7831d56,
+    type: 3}
+  m_PrefabInstance: {fileID: 6022514048345332303}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6022514048345332304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e75a04a147624aa9b6f89d5d4759155, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &6401274732918395179
 MonoBehaviour:
   m_ObjectHideFlags: 0
