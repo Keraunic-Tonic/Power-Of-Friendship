@@ -1,4 +1,5 @@
-﻿// Copyright (c) Pixel Crushers. All rights reserved.
+// Recompile at 8/7/2020 10:39:12 PM
+// Copyright (c) Pixel Crushers. All rights reserved.
 
 using UnityEngine;
 using System;
