@@ -1072,7 +1072,7 @@ MonoBehaviour:
   title: Subtitles
   manualSize: {x: 49.3, y: 28}
   positionType: 2
-  manualPosition: {x: 28.1, y: 23.8}
+  manualPosition: {x: 30, y: 23.8}
   positionSmoothing: 0
   alignment: 0
   toggleKey: 
@@ -1146,7 +1146,7 @@ MonoBehaviour:
   biggestElementSize: {x: 0, y: 0}
   rect:
     serializedVersion: 2
-    x: 41.400024
+    x: 64.20001
     y: 78.399994
     width: 591.6
     height: 224
