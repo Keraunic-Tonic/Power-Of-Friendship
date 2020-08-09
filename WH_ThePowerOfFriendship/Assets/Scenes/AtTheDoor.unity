@@ -697,7 +697,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 715
+    y: 943
     width: 300
     height: 202
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -789,7 +789,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 498
+    y: 726
     width: 300
     height: 187
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -909,7 +909,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 231
+    y: 459
     width: 300
     height: 237
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -959,9 +959,9 @@ MonoBehaviour:
   comment: 
   numSockets: 1
   willWait: 0
-  endAction: 0
-  skipAction: 1
-  skipActionActual: {fileID: 1156733999}
+  endAction: 2
+  skipAction: 5
+  skipActionActual: {fileID: 1259140275}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -972,7 +972,7 @@ MonoBehaviour:
     x: 14
     y: 14
     width: 300
-    height: 187
+    height: 207
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 3666332733581672046}
@@ -1147,6 +1147,53 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0
+--- !u!114 &1259140275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57a72d74a258e413bacd504f0fdb611b, type: 3}
+  m_Name: ActionCharPortrait
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 2
+  title: Switch Portrait
+  description: 'Changes the ''speaking'' graphic used by Characters. To display this
+    graphic in a Menu, place a Graphic element of type Dialogue Portrait in a Menu
+    of Appear type: When Speech Plays. If the new graphic is placed in a Resources
+    folder, it will be stored in saved game files.'
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 2
+  skipAction: 1
+  skipActionActual: {fileID: 1156733999}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 251
+    width: 300
+    height: 178
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 0}
+  parameterID: -1
+  constantID: 0
+  isPlayer: 1
+  playerID: -1
+  _char: {fileID: 0}
+  newPortraitGraphic: {fileID: 2800000, guid: 02824d0b421cd534abfaf0d33d178b29, type: 3}
 --- !u!114 &1268829063
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1181,7 +1228,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 947
+    y: 1175
     width: 300
     height: 202
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1269,6 +1316,53 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1454298200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57a72d74a258e413bacd504f0fdb611b, type: 3}
+  m_Name: ActionCharPortrait
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 2
+  title: Switch Portrait
+  description: 'Changes the ''speaking'' graphic used by Characters. To display this
+    graphic in a Menu, place a Graphic element of type Dialogue Portrait in a Menu
+    of Appear type: When Speech Plays. If the new graphic is placed in a Resources
+    folder, it will be stored in saved game files.'
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 2
+  skipAction: 1
+  skipActionActual: {fileID: 1156733999}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 251
+    width: 300
+    height: 178
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 3666332733581672046}
+  parameterID: -1
+  constantID: 0
+  isPlayer: 1
+  playerID: -1
+  _char: {fileID: 0}
+  newPortraitGraphic: {fileID: 2800000, guid: 02824d0b421cd534abfaf0d33d178b29, type: 3}
 --- !u!1 &1491689692
 GameObject:
   m_ObjectHideFlags: 0
@@ -2476,6 +2570,7 @@ MonoBehaviour:
   - {fileID: 993453559}
   - {fileID: 934310751}
   - {fileID: 1268829063}
+  - {fileID: 1454298200}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
@@ -3118,7 +3213,12 @@ PrefabInstance:
     - target: {fileID: 3191684682842536500, guid: 4b684d72d7e0b004ea4f89e1f7831d56,
         type: 3}
       propertyPath: expressions.Array.size
-      value: 3
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191684682842536500, guid: 4b684d72d7e0b004ea4f89e1f7831d56,
+        type: 3}
+      propertyPath: portraitIcon.frameSpeeds.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3191684682842536500, guid: 4b684d72d7e0b004ea4f89e1f7831d56,
         type: 3}
@@ -3128,7 +3228,7 @@ PrefabInstance:
     - target: {fileID: 3191684682842536500, guid: 4b684d72d7e0b004ea4f89e1f7831d56,
         type: 3}
       propertyPath: expressions.Array.data[0].label
-      value: Default
+      value: Angry
       objectReference: {fileID: 0}
     - target: {fileID: 3191684682842536500, guid: 4b684d72d7e0b004ea4f89e1f7831d56,
         type: 3}
@@ -3158,12 +3258,12 @@ PrefabInstance:
     - target: {fileID: 3191684682842536500, guid: 4b684d72d7e0b004ea4f89e1f7831d56,
         type: 3}
       propertyPath: expressions.Array.data[1].ID
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3191684682842536500, guid: 4b684d72d7e0b004ea4f89e1f7831d56,
         type: 3}
       propertyPath: expressions.Array.data[1].label
-      value: Angry
+      value: Shocked
       objectReference: {fileID: 0}
     - target: {fileID: 3191684682842536500, guid: 4b684d72d7e0b004ea4f89e1f7831d56,
         type: 3}
@@ -3240,6 +3340,26 @@ PrefabInstance:
       propertyPath: expressions.Array.data[0].portraitIcon.texture
       value: 
       objectReference: {fileID: 2800000, guid: 02824d0b421cd534abfaf0d33d178b29, type: 3}
+    - target: {fileID: 3191684682842536500, guid: 4b684d72d7e0b004ea4f89e1f7831d56,
+        type: 3}
+      propertyPath: portraitIcon.texture
+      value: 
+      objectReference: {fileID: 2800000, guid: 02824d0b421cd534abfaf0d33d178b29, type: 3}
+    - target: {fileID: 3191684682842536500, guid: 4b684d72d7e0b004ea4f89e1f7831d56,
+        type: 3}
+      propertyPath: portraitIcon.isAnimated
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191684682842536500, guid: 4b684d72d7e0b004ea4f89e1f7831d56,
+        type: 3}
+      propertyPath: expressions.Array.data[0].ID
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191684682842536500, guid: 4b684d72d7e0b004ea4f89e1f7831d56,
+        type: 3}
+      propertyPath: portraitIcon.frameSpeeds.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b684d72d7e0b004ea4f89e1f7831d56, type: 3}
 --- !u!1 &6022514048345332304 stripped
