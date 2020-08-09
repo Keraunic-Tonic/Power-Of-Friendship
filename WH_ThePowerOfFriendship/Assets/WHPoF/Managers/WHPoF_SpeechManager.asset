@@ -25,8 +25,8 @@ MonoBehaviour:
   canSkipWithMouseClicks: 1
   minimumDisplayTime: 3
   screenTimeFactor: 0.1
-  allowSpeechSkipping: 0
-  allowGameplaySpeechSkipping: 0
+  allowSpeechSkipping: 1
+  allowGameplaySpeechSkipping: 1
   skipThresholdTime: 0
   endScrollBeforeSkip: 0
   scrollingTextFactorsLength: 0
