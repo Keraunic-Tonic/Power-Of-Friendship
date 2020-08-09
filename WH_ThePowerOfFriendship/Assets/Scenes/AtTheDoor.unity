@@ -532,7 +532,7 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 0
-  skipAction: 1
+  skipAction: 6
   skipActionActual: {fileID: 0}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -541,8 +541,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 14
-    y: 251
+    x: 44
+    y: 261
     width: 300
     height: 158
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -734,7 +734,7 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 0
-  skipAction: 4
+  skipAction: 5
   skipActionActual: {fileID: 1268829063}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -743,8 +743,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 14
-    y: 1379
+    x: 44
+    y: 1329
     width: 300
     height: 202
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -835,8 +835,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 14
-    y: 934
+    x: 44
+    y: 1112
     width: 300
     height: 187
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -946,8 +946,8 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 0
-  skipAction: 6
-  skipActionActual: {fileID: 1494782046}
+  skipAction: 1
+  skipActionActual: {fileID: 680921809}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -955,10 +955,10 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 14
-    y: 459
+    x: 44
+    y: 845
     width: 300
-    height: 217
+    height: 237
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 3666332733581672046}
@@ -1008,7 +1008,7 @@ MonoBehaviour:
   willWait: 0
   endAction: 0
   skipAction: 5
-  skipActionActual: {fileID: 0}
+  skipActionActual: {fileID: 1268829063}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -1219,7 +1219,7 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 0
-  skipAction: 3
+  skipAction: 4
   skipActionActual: {fileID: 934310751}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -1228,8 +1228,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 14
-    y: 1171
+    x: 44
+    y: 657
     width: 300
     height: 158
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1265,7 +1265,7 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 1
-  skipAction: 4
+  skipAction: 5
   skipActionActual: {fileID: 1268829063}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -1274,8 +1274,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 14
-    y: 1611
+    x: 44
+    y: 1561
     width: 300
     height: 202
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1394,53 +1394,6 @@ Transform:
   m_Father: {fileID: 1963627040}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1494782046
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57a72d74a258e413bacd504f0fdb611b, type: 3}
-  m_Name: ActionCharPortrait
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 2
-  title: Switch Portrait
-  description: 'Changes the ''speaking'' graphic used by Characters. To display this
-    graphic in a Menu, place a Graphic element of type Dialogue Portrait in a Menu
-    of Appear type: When Speech Plays. If the new graphic is placed in a Resources
-    folder, it will be stored in saved game files.'
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  numSockets: 1
-  willWait: 0
-  endAction: 0
-  skipAction: 2
-  skipActionActual: {fileID: 993453559}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 14
-    y: 726
-    width: 300
-    height: 158
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 3666332733581672046}
-  parameterID: -1
-  constantID: 0
-  isPlayer: 1
-  playerID: -1
-  _char: {fileID: 0}
-  newPortraitGraphic: {fileID: 2800000, guid: b261345c9584b374f80203aa2a676ca4, type: 3}
 --- !u!1 &1533660928
 GameObject:
   m_ObjectHideFlags: 0
@@ -2321,13 +2274,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actions:
   - {fileID: 1157158158}
+  - {fileID: 680921809}
   - {fileID: 1156733999}
+  - {fileID: 1220392636}
   - {fileID: 993453559}
   - {fileID: 934310751}
   - {fileID: 1268829063}
-  - {fileID: 680921809}
-  - {fileID: 1494782046}
-  - {fileID: 1220392636}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
