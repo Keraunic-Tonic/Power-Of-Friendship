@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3191684682842534792}
   - component: {fileID: 3191684682842534788}
   m_Layer: 2
-  m_Name: VVPlayer 1
+  m_Name: VVPlayer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -176,7 +176,7 @@ MonoBehaviour:
   displayLineID: -1
   speechColor: {r: 0.81261015, g: 0.5424528, b: 1, a: 1}
   portraitIcon:
-    texture: {fileID: 0}
+    texture: {fileID: 2800000, guid: 3d03a90ac26ddcc428b5b8711366e3fb, type: 3}
     isAnimated: 0
     numFrames: 1
     numRows: 1
@@ -188,8 +188,38 @@ MonoBehaviour:
     clickOffset: {x: 0, y: 0}
     frameSpeeds: []
     alwaysAnimate: 0
-  useExpressions: 0
-  expressions: []
+  useExpressions: 1
+  expressions:
+  - ID: 0
+    label: Angry
+    portraitIcon:
+      texture: {fileID: 2800000, guid: b261345c9584b374f80203aa2a676ca4, type: 3}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.015
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: 0}
+      frameSpeeds: []
+      alwaysAnimate: 0
+  - ID: 1
+    label: Shocked
+    portraitIcon:
+      texture: {fileID: 2800000, guid: 799f9435f3b085846ac07d0eb3318168, type: 3}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.015
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: 0}
+      frameSpeeds: []
+      alwaysAnimate: 0
   speechMenuPlacement: {fileID: 0}
   mapExpressionsToShapeable: 0
   expressionGroupID: 0
