@@ -942,7 +942,7 @@ MonoBehaviour:
     hotspotPrefix2:
       label: on
       lineID: -1
-    useActionList: {fileID: 11400000, guid: 5d6905eecf9e89a46bb6ba4a4b4b2056, type: 2}
+    useActionList: {fileID: 0}
     lookActionList: {fileID: 0}
     interactions: []
     combineActionList: []
@@ -976,7 +976,7 @@ MonoBehaviour:
   passUnhandledHotspotAsParameter: 0
   unhandledGive: {fileID: 0}
   recipes:
-  - label: Recipe 1
+  - label: Revived Flower
     id: 0
     ingredients:
     - itemID: 9
@@ -991,6 +991,32 @@ MonoBehaviour:
     invActionList: {fileID: 0}
     actionListOnCreate: {fileID: 11400000, guid: d816d3e358a18a843a440012d17f5cf2,
       type: 2}
+  - label: Full Orb
+    id: 1
+    ingredients:
+    - itemID: 3
+      amount: 1
+      slotNumber: 1
+    - itemID: 4
+      amount: 1
+      slotNumber: 1
+    - itemID: 5
+      amount: 1
+      slotNumber: 1
+    - itemID: 6
+      amount: 1
+      slotNumber: 1
+    - itemID: 7
+      amount: 1
+      slotNumber: 1
+    - itemID: 8
+      amount: 1
+      slotNumber: 1
+    resultID: 2
+    useSpecificSlots: 0
+    onCreateRecipe: 0
+    invActionList: {fileID: 0}
+    actionListOnCreate: {fileID: 0}
   documents: []
   objectives:
   - ID: 0
