@@ -90,7 +90,7 @@ GameObject:
   - component: {fileID: 5986655220619899733}
   - component: {fileID: 5986655220619899734}
   - component: {fileID: 5986655220619899735}
-  - component: {fileID: 5986655220619899732}
+  - component: {fileID: 8857106993657941467}
   m_Layer: 5
   m_Name: SceneSelectButton
   m_TagString: Untagged
@@ -198,8 +198,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5986655220619899732}
-        m_MethodName: ChooseScene
+      - m_Target: {fileID: 8857106993657941467}
+        m_MethodName: Interact
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -209,7 +209,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &5986655220619899732
+--- !u!114 &8857106993657941467
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -218,6 +218,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 5986655220619899737}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67a7f5baa60497b4da298c2f33f25cd8, type: 3}
+  m_Script: {fileID: 11500000, guid: ada307c52a1dc4b989fab7d10464c128, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  actions:
+  - {fileID: 0}
+  - {fileID: 0}
+  isSkippable: 0
+  triggerTime: 0
+  autosaveAfter: 0
+  actionListType: 0
+  conversation: {fileID: 0}
+  assetFile: {fileID: 0}
+  source: 0
+  unfreezePauseMenus: 1
+  useParameters: 0
+  parameters: []
+  tagID: 0
+  syncParamValues: 1

@@ -171,7 +171,7 @@ MonoBehaviour:
   motionControl: 0
   talkingAnimation: 0
   separateTalkingLayer: 0
-  speechLabel: 
+  speechLabel: V.V.
   lineID: -1
   displayLineID: -1
   speechColor: {r: 0.81261015, g: 0.5424528, b: 1, a: 1}
@@ -276,31 +276,25 @@ MonoBehaviour:
   crossfadeAnims: 0
   doDiagonals: 0
   isTalking: 0
-  frameFlipping: 0
+  frameFlipping: 1
   flipCustomAnims: 0
   _spriteDirectionData:
-    directions: 1
-    down: 1
+    directions: 3
+    down: 0
     left: 1
     right: 1
-    up: 1
+    up: 0
     downLeft: 0
     upLeft: 0
     upRight: 0
     downRight: 0
     spriteDirections:
-    - suffix: D
-      angle: 0
-      maxAngle: 45
     - suffix: L
       angle: 90
-      maxAngle: 135
-    - suffix: U
-      angle: 180
-      maxAngle: 225
+      maxAngle: 180
     - suffix: R
       angle: 270
-      maxAngle: 315
+      maxAngle: 360
     isUpgraded: 1
   angleSnapping: 0
   walkSpeedScale: 2

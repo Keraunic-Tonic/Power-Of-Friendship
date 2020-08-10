@@ -20,7 +20,26 @@ MonoBehaviour:
     carryOnStartNotDefault: 0
     carryOnStartID: 0
     carryOnStartIDs: 
-    vars: []
+    vars:
+    - label: Property 1
+      id: 0
+      type: 0
+      val: 0
+      floatVal: 0
+      textVal: 
+      popUps: []
+      vector3Val: {x: 0, y: 0, z: 0}
+      link: 0
+      pmVar: 
+      updateLinkOnStart: 0
+      canTranslate: 1
+      popUpID: 0
+      textValLineID: -1
+      popUpsLineID: -1
+      description: 
+      showInFilter: 0
+      limitToCategories: 0
+      categoryIDs: 
     canCarryMultiple: 0
     count: 1
     useSeparateSlots: 0
@@ -74,7 +93,26 @@ MonoBehaviour:
     carryOnStartNotDefault: 0
     carryOnStartID: 0
     carryOnStartIDs: 
-    vars: []
+    vars:
+    - label: Property 1
+      id: 0
+      type: 0
+      val: 0
+      floatVal: 0
+      textVal: 
+      popUps: []
+      vector3Val: {x: 0, y: 0, z: 0}
+      link: 0
+      pmVar: 
+      updateLinkOnStart: 0
+      canTranslate: 1
+      popUpID: 0
+      textValLineID: -1
+      popUpsLineID: -1
+      description: 
+      showInFilter: 0
+      limitToCategories: 0
+      categoryIDs: 
     canCarryMultiple: 0
     count: 1
     useSeparateSlots: 0
@@ -127,7 +165,26 @@ MonoBehaviour:
     carryOnStartNotDefault: 0
     carryOnStartID: 0
     carryOnStartIDs: 
-    vars: []
+    vars:
+    - label: Property 1
+      id: 0
+      type: 0
+      val: 0
+      floatVal: 0
+      textVal: 
+      popUps: []
+      vector3Val: {x: 0, y: 0, z: 0}
+      link: 0
+      pmVar: 
+      updateLinkOnStart: 0
+      canTranslate: 1
+      popUpID: 0
+      textValLineID: -1
+      popUpsLineID: -1
+      description: 
+      showInFilter: 0
+      limitToCategories: 0
+      categoryIDs: 
     canCarryMultiple: 0
     count: 1
     useSeparateSlots: 0
@@ -180,7 +237,26 @@ MonoBehaviour:
     carryOnStartNotDefault: 0
     carryOnStartID: 0
     carryOnStartIDs: 
-    vars: []
+    vars:
+    - label: Property 1
+      id: 0
+      type: 0
+      val: 0
+      floatVal: 0
+      textVal: 
+      popUps: []
+      vector3Val: {x: 0, y: 0, z: 0}
+      link: 0
+      pmVar: 
+      updateLinkOnStart: 0
+      canTranslate: 1
+      popUpID: 0
+      textValLineID: -1
+      popUpsLineID: -1
+      description: 
+      showInFilter: 0
+      limitToCategories: 0
+      categoryIDs: 
     canCarryMultiple: 0
     count: 1
     useSeparateSlots: 0
@@ -233,7 +309,26 @@ MonoBehaviour:
     carryOnStartNotDefault: 0
     carryOnStartID: 0
     carryOnStartIDs: 
-    vars: []
+    vars:
+    - label: Property 1
+      id: 0
+      type: 0
+      val: 0
+      floatVal: 0
+      textVal: 
+      popUps: []
+      vector3Val: {x: 0, y: 0, z: 0}
+      link: 0
+      pmVar: 
+      updateLinkOnStart: 0
+      canTranslate: 1
+      popUpID: 0
+      textValLineID: -1
+      popUpsLineID: -1
+      description: 
+      showInFilter: 0
+      limitToCategories: 0
+      categoryIDs: 
     canCarryMultiple: 0
     count: 1
     useSeparateSlots: 0
@@ -286,7 +381,26 @@ MonoBehaviour:
     carryOnStartNotDefault: 0
     carryOnStartID: 0
     carryOnStartIDs: 
-    vars: []
+    vars:
+    - label: Property 1
+      id: 0
+      type: 0
+      val: 0
+      floatVal: 0
+      textVal: 
+      popUps: []
+      vector3Val: {x: 0, y: 0, z: 0}
+      link: 0
+      pmVar: 
+      updateLinkOnStart: 0
+      canTranslate: 1
+      popUpID: 0
+      textValLineID: -1
+      popUpsLineID: -1
+      description: 
+      showInFilter: 0
+      limitToCategories: 0
+      categoryIDs: 
     canCarryMultiple: 0
     count: 1
     useSeparateSlots: 0
@@ -339,7 +453,26 @@ MonoBehaviour:
     carryOnStartNotDefault: 0
     carryOnStartID: 0
     carryOnStartIDs: 
-    vars: []
+    vars:
+    - label: Property 1
+      id: 0
+      type: 0
+      val: 0
+      floatVal: 0
+      textVal: 
+      popUps: []
+      vector3Val: {x: 0, y: 0, z: 0}
+      link: 0
+      pmVar: 
+      updateLinkOnStart: 0
+      canTranslate: 1
+      popUpID: 0
+      textValLineID: -1
+      popUpsLineID: -1
+      description: 
+      showInFilter: 0
+      limitToCategories: 0
+      categoryIDs: 
     canCarryMultiple: 0
     count: 1
     useSeparateSlots: 0
@@ -392,7 +525,26 @@ MonoBehaviour:
     carryOnStartNotDefault: 0
     carryOnStartID: 0
     carryOnStartIDs: 
-    vars: []
+    vars:
+    - label: Property 1
+      id: 0
+      type: 0
+      val: 0
+      floatVal: 0
+      textVal: 
+      popUps: []
+      vector3Val: {x: 0, y: 0, z: 0}
+      link: 0
+      pmVar: 
+      updateLinkOnStart: 0
+      canTranslate: 1
+      popUpID: 0
+      textValLineID: -1
+      popUpsLineID: -1
+      description: 
+      showInFilter: 0
+      limitToCategories: 0
+      categoryIDs: 
     canCarryMultiple: 0
     count: 1
     useSeparateSlots: 0
@@ -445,7 +597,26 @@ MonoBehaviour:
     carryOnStartNotDefault: 0
     carryOnStartID: 0
     carryOnStartIDs: 
-    vars: []
+    vars:
+    - label: Property 1
+      id: 0
+      type: 0
+      val: 0
+      floatVal: 0
+      textVal: 
+      popUps: []
+      vector3Val: {x: 0, y: 0, z: 0}
+      link: 0
+      pmVar: 
+      updateLinkOnStart: 0
+      canTranslate: 1
+      popUpID: 0
+      textValLineID: -1
+      popUpsLineID: -1
+      description: 
+      showInFilter: 0
+      limitToCategories: 0
+      categoryIDs: 
     canCarryMultiple: 0
     count: 1
     useSeparateSlots: 0
@@ -492,11 +663,52 @@ MonoBehaviour:
     unhandledCombineActionList: {fileID: 0}
     showInFilter: 1
   bins: []
-  invVars: []
+  invVars:
+  - label: Property 1
+    id: 0
+    type: 0
+    val: 0
+    floatVal: 0
+    textVal: 
+    popUps: []
+    vector3Val: {x: 0, y: 0, z: 0}
+    link: 0
+    pmVar: 
+    updateLinkOnStart: 0
+    canTranslate: 1
+    popUpID: 0
+    textValLineID: -1
+    popUpsLineID: -1
+    description: 
+    showInFilter: 0
+    limitToCategories: 0
+    categoryIDs: 
   unhandledCombine: {fileID: 0}
   unhandledHotspot: {fileID: 0}
   passUnhandledHotspotAsParameter: 0
   unhandledGive: {fileID: 0}
   recipes: []
   documents: []
-  objectives: []
+  objectives:
+  - ID: 0
+    title: (Untitled)
+    titleLineID: -1
+    description: 
+    descriptionLineID: -1
+    perPlayer: 0
+    texture: {fileID: 0}
+    states:
+    - ID: 0
+      label: Started
+      labelLineID: -1
+      description: 
+      descriptionLineID: -1
+      stateType: 1
+    - ID: 1
+      label: Completed
+      labelLineID: -1
+      description: 
+      descriptionLineID: -1
+      stateType: 2
+    lockStateWhenComplete: 1
+    lockStateWhenFail: 1
