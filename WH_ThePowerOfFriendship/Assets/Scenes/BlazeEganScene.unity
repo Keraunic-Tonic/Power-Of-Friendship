@@ -1267,6 +1267,58 @@ Transform:
   m_Father: {fileID: 1193642582}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &275889686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aac25eb7cbe8345d6baaf5efb8fc62e8, type: 3}
+  m_Name: ActionInventorySet
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 9
+  title: Add or remove
+  description: Adds or removes an item from the Player's inventory. Items are defined
+    in the Inventory Manager. If the player can carry multiple amounts of the item,
+    more options will show.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 2
+  skipAction: 7
+  skipActionActual: {fileID: 1294885475}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 1671
+    width: 300
+    height: 152
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 5006546964717150072}
+  invAction: 0
+  parameterID: -1
+  invID: 4
+  replaceParameterID: -1
+  invIDReplace: 0
+  setAmount: 0
+  amountParameterID: -1
+  amount: 1
+  setPlayer: 0
+  playerID: 0
+  addToFront: 0
+  removeLast: 0
 --- !u!114 &294430812
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1601,7 +1653,7 @@ MonoBehaviour:
   willWait: 0
   endAction: 2
   skipAction: 3
-  skipActionActual: {fileID: 10089726}
+  skipActionActual: {fileID: 1479003965}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -3153,6 +3205,58 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0
+--- !u!114 &921058035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aac25eb7cbe8345d6baaf5efb8fc62e8, type: 3}
+  m_Name: ActionInventorySet
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 9
+  title: Add or remove
+  description: Adds or removes an item from the Player's inventory. Items are defined
+    in the Inventory Manager. If the player can carry multiple amounts of the item,
+    more options will show.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 1
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 29
+    y: 2070
+    width: 300
+    height: 132
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 1254479550887032739}
+  invAction: 0
+  parameterID: -1
+  invID: 8
+  replaceParameterID: -1
+  invIDReplace: 0
+  setAmount: 0
+  amountParameterID: -1
+  amount: 1
+  setPlayer: 0
+  playerID: 0
+  addToFront: 0
+  removeLast: 0
 --- !u!114 &926006032
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3618,6 +3722,60 @@ MonoBehaviour:
   playerID: -1
   _char: {fileID: 0}
   newPortraitGraphic: {fileID: 2800000, guid: 799f9435f3b085846ac07d0eb3318168, type: 3}
+--- !u!114 &999169366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1d11677f69f745f88dbe9922511d53f, type: 3}
+  m_Name: ActionScene
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 16
+  title: Switch
+  description: 'Moves the Player to a new scene. The scene must be listed in Unity''s
+    Build Settings. By default, the screen will cut to black during the transition,
+    but the last frame of the current scene can instead be overlayed. This allows
+    for cinematic effects: if the next scene fades in, it will cause a crossfade
+    effect; if the next scene doesn''t fade, it will cause a straight cut.'
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 0
+  willWait: 0
+  endAction: 1
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 20
+    y: 311
+    width: 300
+    height: 164
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 1339237708}
+  chooseSceneBy: 1
+  sceneNumber: 0
+  sceneNumberParameterID: -1
+  sceneName: SceneSelection
+  sceneNameParameterID: -1
+  assignScreenOverlay: 0
+  onlyPreload: 0
+  relativePosition: 0
+  relativeMarker: {fileID: 0}
+  relativeMarkerID: 0
+  relativeMarkerParameterID: -1
+  forceReload: 0
 --- !u!114 &1010286127
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4300,7 +4458,7 @@ MonoBehaviour:
   willWait: 0
   endAction: 2
   skipAction: 4
-  skipActionActual: {fileID: 971086124}
+  skipActionActual: {fileID: 1698469820}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -4611,9 +4769,9 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 1813
+    y: 1853
     width: 300
-    height: 207
+    height: 192
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 5006546964717150072}
@@ -4623,7 +4781,7 @@ MonoBehaviour:
   isPlayer: 0
   playerID: -1
   speaker: {fileID: 2087675297}
-  messageText: Thank you for showing me this splendrous display of greenery.
+  messageText: Here's my Flora Orb as gratitude.
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -4673,46 +4831,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1306931448
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9289eb0ca58ef471f9062a5f77161403, type: 3}
-  m_Name: Wait
-  m_EditorClassIdentifier: 
-  id: 1
-  category: 6
-  title: Wait
-  description: Waits a set time before continuing.
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  numSockets: 1
-  willWait: 0
-  endAction: 2
-  skipAction: 7
-  skipActionActual: {fileID: 1294885475}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 14
-    y: 1671
-    width: 300
-    height: 112
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 5006546964717150072}
-  parameterID: -1
-  timeToPause: 0
 --- !u!1 &1315333197
 GameObject:
   m_ObjectHideFlags: 0
@@ -5420,7 +5538,7 @@ MonoBehaviour:
   willWait: 0
   endAction: 2
   skipAction: 2
-  skipActionActual: {fileID: 513772956}
+  skipActionActual: {fileID: 1772915887}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -6008,58 +6126,6 @@ Transform:
   m_Father: {fileID: 1193642582}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1547972900
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aac25eb7cbe8345d6baaf5efb8fc62e8, type: 3}
-  m_Name: ActionInventorySet
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 9
-  title: Add or remove
-  description: Adds or removes an item from the Player's inventory. Items are defined
-    in the Inventory Manager. If the player can carry multiple amounts of the item,
-    more options will show.
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  numSockets: 1
-  willWait: 0
-  endAction: 1
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 29
-    y: 2070
-    width: 300
-    height: 132
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 0}
-  invAction: 0
-  parameterID: -1
-  invID: 8
-  replaceParameterID: -1
-  invIDReplace: 0
-  setAmount: 0
-  amountParameterID: -1
-  amount: 1
-  setPlayer: 0
-  playerID: 0
-  addToFront: 0
-  removeLast: 0
 --- !u!114 &1551718589
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6544,7 +6610,7 @@ MonoBehaviour:
   willWait: 0
   endAction: 2
   skipAction: 6
-  skipActionActual: {fileID: 1569155092}
+  skipActionActual: {fileID: 1560027147}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -6802,7 +6868,7 @@ MonoBehaviour:
   willWait: 0
   endAction: 2
   skipAction: 8
-  skipActionActual: {fileID: 1306931448}
+  skipActionActual: {fileID: 275889686}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -6946,60 +7012,6 @@ MonoBehaviour:
   constantID: 0
   conversation: {fileID: 6048083691547592526}
   overrideOptions: 0
---- !u!114 &1951904489
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f1d11677f69f745f88dbe9922511d53f, type: 3}
-  m_Name: ActionScene
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 16
-  title: Switch
-  description: 'Moves the Player to a new scene. The scene must be listed in Unity''s
-    Build Settings. By default, the screen will cut to black during the transition,
-    but the last frame of the current scene can instead be overlayed. This allows
-    for cinematic effects: if the next scene fades in, it will cause a crossfade
-    effect; if the next scene doesn''t fade, it will cause a straight cut.'
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  numSockets: 0
-  willWait: 0
-  endAction: 1
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 20
-    y: 311
-    width: 300
-    height: 164
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 1339237708}
-  chooseSceneBy: 1
-  sceneNumber: 0
-  sceneNumberParameterID: -1
-  sceneName: SceneSelection
-  sceneNameParameterID: -1
-  assignScreenOverlay: 0
-  onlyPreload: 0
-  relativePosition: 0
-  relativeMarker: {fileID: 0}
-  relativeMarkerID: 0
-  relativeMarkerParameterID: -1
-  forceReload: 0
 --- !u!114 &1978034551
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8575,7 +8587,7 @@ MonoBehaviour:
   - {fileID: 1978034551}
   - {fileID: 2036718419}
   - {fileID: 1265724904}
-  - {fileID: 1547972900}
+  - {fileID: 921058035}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
@@ -9425,7 +9437,7 @@ MonoBehaviour:
   - {fileID: 1013987551}
   - {fileID: 1845149171}
   - {fileID: 1294885475}
-  - {fileID: 1306931448}
+  - {fileID: 275889686}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0

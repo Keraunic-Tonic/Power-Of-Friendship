@@ -121,6 +121,118 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &7004889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
+  m_Name: ActionSpeech
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 4
+  title: Play speech
+  description: "Makes a Character talk, or \u2013 if no Character is specified \u2013
+    displays a message. Subtitles only appear if they are enabled from the Options
+    menu. A 'thinking' effect can be produced by opting to not play any animation."
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 2
+  skipAction: 1
+  skipActionActual: {fileID: 1646427099}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 14
+    width: 300
+    height: 227
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 0}
+  constantID: 0
+  parameterID: -1
+  messageParameterID: -1
+  isPlayer: 0
+  playerID: -1
+  speaker: {fileID: 1946801472}
+  messageText: Oh, Vivica. What an completely unwelcome surprise to find you here.
+  lineID: -1
+  multiLineIDs: 
+  isBackground: 0
+  noAnimation: 0
+  headClip: {fileID: 0}
+  mouthClip: {fileID: 0}
+  play2DHeadAnim: 0
+  headClip2D: 
+  headLayer: 0
+  play2DMouthAnim: 0
+  mouthClip2D: 
+  mouthLayer: 0
+  waitTimeOffset: 0
+--- !u!114 &83158523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aac25eb7cbe8345d6baaf5efb8fc62e8, type: 3}
+  m_Name: ActionInventorySet
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 9
+  title: Add or remove
+  description: Adds or removes an item from the Player's inventory. Items are defined
+    in the Inventory Manager. If the player can carry multiple amounts of the item,
+    more options will show.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 0
+  skipAction: 1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 14
+    width: 300
+    height: 132
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 0}
+  invAction: 1
+  parameterID: -1
+  invID: 0
+  replaceParameterID: -1
+  invIDReplace: 0
+  setAmount: 0
+  amountParameterID: -1
+  amount: 1
+  setPlayer: 0
+  playerID: 0
+  addToFront: 0
+  removeLast: 0
 --- !u!114 &113222478
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -195,6 +307,67 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &162813143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
+  m_Name: ActionSpeech
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 4
+  title: Play speech
+  description: "Makes a Character talk, or \u2013 if no Character is specified \u2013
+    displays a message. Subtitles only appear if they are enabled from the Options
+    menu. A 'thinking' effect can be produced by opting to not play any animation."
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 1
+  skipAction: 0
+  skipActionActual: {fileID: 162813143}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 24
+    y: 192
+    width: 300
+    height: 222
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 0}
+  constantID: 0
+  parameterID: -1
+  messageParameterID: -1
+  isPlayer: 0
+  playerID: -1
+  speaker: {fileID: 1946801472}
+  messageText: Wow, V.V., who would have thought that you would ever come in to possession
+    of a such a rare gem?
+  lineID: -1
+  multiLineIDs: 
+  isBackground: 0
+  noAnimation: 0
+  headClip: {fileID: 0}
+  mouthClip: {fileID: 0}
+  play2DHeadAnim: 0
+  headClip2D: 
+  headLayer: 0
+  play2DMouthAnim: 0
+  mouthClip2D: 
+  mouthLayer: 0
+  waitTimeOffset: 0
 --- !u!1 &164938915
 GameObject:
   m_ObjectHideFlags: 0
@@ -225,6 +398,94 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &217480635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a20a14d7555494a439c838ed9465bb15, type: 3}
+  m_Name: ActionConversation
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 4
+  title: Start conversation
+  description: Enters Conversation mode, and displays the available dialogue options
+    in a specified conversation.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 0
+  willWait: 0
+  endAction: 1
+  skipAction: 1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 458
+    y: 112
+    width: 300
+    height: 104
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 0}
+  endings: []
+  parameterID: -1
+  constantID: 0
+  conversation: {fileID: 3134353811523498899}
+  overrideOptions: 0
+--- !u!114 &227497390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a20a14d7555494a439c838ed9465bb15, type: 3}
+  m_Name: ActionConversation
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 4
+  title: Start conversation
+  description: Enters Conversation mode, and displays the available dialogue options
+    in a specified conversation.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 0
+  willWait: 0
+  endAction: 1
+  skipAction: 1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 942
+    width: 300
+    height: 104
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 0}
+  endings: []
+  parameterID: -1
+  constantID: 0
+  conversation: {fileID: 9122058996316571063}
+  overrideOptions: 0
 --- !u!1 &265058679
 GameObject:
   m_ObjectHideFlags: 0
@@ -251,7 +512,9 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 8766761579892505818}
+  - {fileID: 4807942374100548858}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2224,6 +2487,66 @@ Transform:
   m_Father: {fileID: 2110710017}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1038791693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
+  m_Name: ActionSpeech
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 4
+  title: Play speech
+  description: "Makes a Character talk, or \u2013 if no Character is specified \u2013
+    displays a message. Subtitles only appear if they are enabled from the Options
+    menu. A 'thinking' effect can be produced by opting to not play any animation."
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 0
+  skipAction: 3
+  skipActionActual: {fileID: 2004350842}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 488
+    width: 300
+    height: 207
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 0}
+  constantID: 0
+  parameterID: -1
+  messageParameterID: -1
+  isPlayer: 0
+  playerID: -1
+  speaker: {fileID: 1946801472}
+  messageText: You have no right to call me by my full name.
+  lineID: -1
+  multiLineIDs: 
+  isBackground: 0
+  noAnimation: 0
+  headClip: {fileID: 0}
+  mouthClip: {fileID: 0}
+  play2DHeadAnim: 0
+  headClip2D: 
+  headLayer: 0
+  play2DMouthAnim: 0
+  mouthClip2D: 
+  mouthLayer: 0
+  waitTimeOffset: 0
 --- !u!1 &1040077802
 GameObject:
   m_ObjectHideFlags: 0
@@ -2463,6 +2786,46 @@ MonoBehaviour:
   playerID: -1
   _char: {fileID: 0}
   newPortraitGraphic: {fileID: 2800000, guid: 3d03a90ac26ddcc428b5b8711366e3fb, type: 3}
+--- !u!114 &1165252442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9289eb0ca58ef471f9062a5f77161403, type: 3}
+  m_Name: Wait
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 6
+  title: Wait
+  description: Waits a set time before continuing.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 1
+  skipAction: 0
+  skipActionActual: {fileID: 1165252442}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 14
+    width: 300
+    height: 92
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 0}
+  parameterID: -1
+  timeToPause: 0
 --- !u!1 &1170273049
 GameObject:
   m_ObjectHideFlags: 0
@@ -2911,6 +3274,106 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0
+--- !u!114 &1633994455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9289eb0ca58ef471f9062a5f77161403, type: 3}
+  m_Name: ActionPause
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 6
+  title: Wait
+  description: Waits a set time before continuing.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 0}
+  parameterID: -1
+  timeToPause: 0
+--- !u!114 &1646427099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
+  m_Name: ActionSpeech
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 4
+  title: Play speech
+  description: "Makes a Character talk, or \u2013 if no Character is specified \u2013
+    displays a message. Subtitles only appear if they are enabled from the Options
+    menu. A 'thinking' effect can be produced by opting to not play any animation."
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 0
+  skipAction: 2
+  skipActionActual: {fileID: 1038791693}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 271
+    width: 300
+    height: 187
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 0}
+  constantID: 0
+  parameterID: -1
+  messageParameterID: -1
+  isPlayer: 1
+  playerID: -1
+  speaker: {fileID: 0}
+  messageText: Ramon. Hello. Make any babies cry from your terrible aura lately?
+  lineID: -1
+  multiLineIDs: 
+  isBackground: 0
+  noAnimation: 0
+  headClip: {fileID: 0}
+  mouthClip: {fileID: 0}
+  play2DHeadAnim: 0
+  headClip2D: 
+  headLayer: 0
+  play2DMouthAnim: 0
+  mouthClip2D: 
+  mouthLayer: 0
+  waitTimeOffset: 0
 --- !u!1 &1772315559
 GameObject:
   m_ObjectHideFlags: 0
@@ -3032,6 +3495,46 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1924801990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9289eb0ca58ef471f9062a5f77161403, type: 3}
+  m_Name: ActionPause
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 6
+  title: Wait
+  description: Waits a set time before continuing.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 0}
+  parameterID: -1
+  timeToPause: 0
 --- !u!1 &1946801470
 GameObject:
   m_ObjectHideFlags: 0
@@ -3353,6 +3856,66 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2004350842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
+  m_Name: ActionSpeech
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 4
+  title: Play speech
+  description: "Makes a Character talk, or \u2013 if no Character is specified \u2013
+    displays a message. Subtitles only appear if they are enabled from the Options
+    menu. A 'thinking' effect can be produced by opting to not play any animation."
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 0
+  skipAction: 4
+  skipActionActual: {fileID: 227497390}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 725
+    width: 300
+    height: 187
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 0}
+  constantID: 0
+  parameterID: -1
+  messageParameterID: -1
+  isPlayer: 1
+  playerID: -1
+  speaker: {fileID: 0}
+  messageText: And if you call me Vivica again, you'll be catching these hands.
+  lineID: -1
+  multiLineIDs: 
+  isBackground: 0
+  noAnimation: 0
+  headClip: {fileID: 0}
+  mouthClip: {fileID: 0}
+  play2DHeadAnim: 0
+  headClip2D: 
+  headLayer: 0
+  play2DMouthAnim: 0
+  mouthClip2D: 
+  mouthLayer: 0
+  waitTimeOffset: 0
 --- !u!1 &2007073213
 GameObject:
   m_ObjectHideFlags: 0
@@ -4172,7 +4735,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
-  - {fileID: 0}
+  - {fileID: 83158523}
+  - {fileID: 162813143}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
@@ -4216,6 +4780,63 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &4807942374093509946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4807942374100050138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d92fe80d068b41b585731413487d0f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actions:
+  - {fileID: 1633994455}
+  isSkippable: 1
+  triggerTime: 0
+  autosaveAfter: 0
+  actionListType: 0
+  conversation: {fileID: 0}
+  assetFile: {fileID: 0}
+  source: 0
+  unfreezePauseMenus: 1
+  useParameters: 0
+  parameters: []
+  tagID: 0
+  syncParamValues: 1
+--- !u!1 &4807942374100050138
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4807942374100548858}
+  - component: {fileID: 4807942374093509946}
+  m_Layer: 0
+  m_Name: Ray Conversation_Option2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4807942374100548858
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4807942374100050138}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 265058680}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5288749610408716283
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4229,7 +4850,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
-  - {fileID: 0}
+  - {fileID: 7004889}
+  - {fileID: 1646427099}
+  - {fileID: 1038791693}
+  - {fileID: 2004350842}
+  - {fileID: 227497390}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
@@ -4637,7 +5262,65 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
-  - {fileID: 0}
+  - {fileID: 1165252442}
+  - {fileID: 217480635}
+  isSkippable: 1
+  triggerTime: 0
+  autosaveAfter: 0
+  actionListType: 0
+  conversation: {fileID: 0}
+  assetFile: {fileID: 0}
+  source: 0
+  unfreezePauseMenus: 1
+  useParameters: 0
+  parameters: []
+  tagID: 0
+  syncParamValues: 1
+--- !u!4 &8766761579892505818
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8766761579892924666}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 265058680}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8766761579892924666
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8766761579892505818}
+  - component: {fileID: 8766761579902604570}
+  m_Layer: 0
+  m_Name: Ray Conversation_Option
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &8766761579902604570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8766761579892924666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d92fe80d068b41b585731413487d0f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actions:
+  - {fileID: 1924801990}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
@@ -4710,9 +5393,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionSource: 0
-  options: []
-  selectedOption:
-    label: 
+  options:
+  - label: Ask about the orb
     lineID: -1
     icon: {fileID: 0}
     cursorIcon:
@@ -4732,11 +5414,68 @@ MonoBehaviour:
     isLocked: 0
     conversationAction: 0
     newConversation: {fileID: 0}
-    ID: 0
+    ID: 1
     hasBeenChosen: 0
     linkToInventory: 0
     linkedInventoryID: 0
-    dialogueOption: {fileID: 0}
+    dialogueOption: {fileID: 8766761579902604570}
+    assetFile: {fileID: 0}
+    customScriptObject: {fileID: 0}
+    customScriptFunction: 
+  - label: Time to leave
+    lineID: -1
+    icon: {fileID: 0}
+    cursorIcon:
+      texture: {fileID: 0}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.015
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: 0}
+      frameSpeeds: []
+      alwaysAnimate: 0
+    isOn: 1
+    isLocked: 0
+    conversationAction: 0
+    newConversation: {fileID: 0}
+    ID: 2
+    hasBeenChosen: 0
+    linkToInventory: 0
+    linkedInventoryID: 0
+    dialogueOption: {fileID: 4807942374093509946}
+    assetFile: {fileID: 0}
+    customScriptObject: {fileID: 0}
+    customScriptFunction: 
+  selectedOption:
+    label: Time to leave
+    lineID: -1
+    icon: {fileID: 0}
+    cursorIcon:
+      texture: {fileID: 0}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.015
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: 0}
+      frameSpeeds: []
+      alwaysAnimate: 0
+    isOn: 1
+    isLocked: 0
+    conversationAction: 0
+    newConversation: {fileID: 0}
+    ID: 2
+    hasBeenChosen: 0
+    linkToInventory: 0
+    linkedInventoryID: 0
+    dialogueOption: {fileID: 4807942374093509946}
     assetFile: {fileID: 0}
     customScriptObject: {fileID: 0}
     customScriptFunction: 
