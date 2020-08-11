@@ -693,7 +693,7 @@ MonoBehaviour:
     count: 1
     useSeparateSlots: 0
     selectSingle: 0
-    tex: {fileID: 0}
+    tex: {fileID: 2800000, guid: 156b2cec25b034710805510b49685ac9, type: 3}
     activeTex: {fileID: 0}
     selectedTex: {fileID: 0}
     linkedPrefab: {fileID: 0}
@@ -729,8 +729,9 @@ MonoBehaviour:
     useActionList: {fileID: 0}
     lookActionList: {fileID: 0}
     interactions: []
-    combineActionList: []
-    combineID: 
+    combineActionList:
+    - {fileID: 11400000, guid: 708ac791b725d524a966f681fce7f5a9, type: 2}
+    combineID: 0b000000
     unhandledActionList: {fileID: 0}
     unhandledCombineActionList: {fileID: 0}
     showInFilter: 1
@@ -765,7 +766,7 @@ MonoBehaviour:
     count: 1
     useSeparateSlots: 0
     selectSingle: 0
-    tex: {fileID: 0}
+    tex: {fileID: 2800000, guid: 141f9cd2b688541f7a6ec2e52cc5e736, type: 3}
     activeTex: {fileID: 0}
     selectedTex: {fileID: 0}
     linkedPrefab: {fileID: 0}
@@ -837,7 +838,7 @@ MonoBehaviour:
     count: 1
     useSeparateSlots: 0
     selectSingle: 0
-    tex: {fileID: 0}
+    tex: {fileID: 2800000, guid: 2f54aa903ea3d44f4803e1c76dbd425d, type: 3}
     activeTex: {fileID: 0}
     selectedTex: {fileID: 0}
     linkedPrefab: {fileID: 0}
@@ -909,7 +910,7 @@ MonoBehaviour:
     count: 1
     useSeparateSlots: 0
     selectSingle: 0
-    tex: {fileID: 0}
+    tex: {fileID: 2800000, guid: 9e6f65e6cb1f743e9886d87aec9b1c9e, type: 3}
     activeTex: {fileID: 0}
     selectedTex: {fileID: 0}
     linkedPrefab: {fileID: 0}
@@ -975,48 +976,7 @@ MonoBehaviour:
   unhandledHotspot: {fileID: 0}
   passUnhandledHotspotAsParameter: 0
   unhandledGive: {fileID: 0}
-  recipes:
-  - label: Revived Flower
-    id: 0
-    ingredients:
-    - itemID: 9
-      amount: 1
-      slotNumber: 1
-    - itemID: 11
-      amount: 1
-      slotNumber: 1
-    resultID: 12
-    useSpecificSlots: 0
-    onCreateRecipe: 0
-    invActionList: {fileID: 0}
-    actionListOnCreate: {fileID: 11400000, guid: d816d3e358a18a843a440012d17f5cf2,
-      type: 2}
-  - label: Full Orb
-    id: 1
-    ingredients:
-    - itemID: 3
-      amount: 1
-      slotNumber: 1
-    - itemID: 4
-      amount: 1
-      slotNumber: 1
-    - itemID: 5
-      amount: 1
-      slotNumber: 1
-    - itemID: 6
-      amount: 1
-      slotNumber: 1
-    - itemID: 7
-      amount: 1
-      slotNumber: 1
-    - itemID: 8
-      amount: 1
-      slotNumber: 1
-    resultID: 2
-    useSpecificSlots: 0
-    onCreateRecipe: 0
-    invActionList: {fileID: 0}
-    actionListOnCreate: {fileID: 0}
+  recipes: []
   documents: []
   objectives:
   - ID: 0
