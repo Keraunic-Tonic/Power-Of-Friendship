@@ -693,7 +693,7 @@ MonoBehaviour:
     count: 1
     useSeparateSlots: 0
     selectSingle: 0
-    tex: {fileID: 2800000, guid: 156b2cec25b034710805510b49685ac9, type: 3}
+    tex: {fileID: 2800000, guid: bb03b95ed246a9c4bba1dfb82ac90f71, type: 3}
     activeTex: {fileID: 0}
     selectedTex: {fileID: 0}
     linkedPrefab: {fileID: 0}
@@ -766,7 +766,7 @@ MonoBehaviour:
     count: 1
     useSeparateSlots: 0
     selectSingle: 0
-    tex: {fileID: 2800000, guid: 141f9cd2b688541f7a6ec2e52cc5e736, type: 3}
+    tex: {fileID: 2800000, guid: cb9917f9c8e96ff4589d24490cf5892e, type: 3}
     activeTex: {fileID: 0}
     selectedTex: {fileID: 0}
     linkedPrefab: {fileID: 0}
@@ -807,7 +807,7 @@ MonoBehaviour:
     unhandledActionList: {fileID: 0}
     unhandledCombineActionList: {fileID: 0}
     showInFilter: 1
-  - label: Purified Water Basin
+  - label: Purified Water
     id: 11
     altLabel: 
     carryOnStart: 0
@@ -838,7 +838,7 @@ MonoBehaviour:
     count: 1
     useSeparateSlots: 0
     selectSingle: 0
-    tex: {fileID: 2800000, guid: 2f54aa903ea3d44f4803e1c76dbd425d, type: 3}
+    tex: {fileID: 2800000, guid: afcc194e47fb7cf4894a1b11ec360e6d, type: 3}
     activeTex: {fileID: 0}
     selectedTex: {fileID: 0}
     linkedPrefab: {fileID: 0}
@@ -910,7 +910,7 @@ MonoBehaviour:
     count: 1
     useSeparateSlots: 0
     selectSingle: 0
-    tex: {fileID: 2800000, guid: 9e6f65e6cb1f743e9886d87aec9b1c9e, type: 3}
+    tex: {fileID: 2800000, guid: b0bedd45a7339c44f8c2b228dfc0ad27, type: 3}
     activeTex: {fileID: 0}
     selectedTex: {fileID: 0}
     linkedPrefab: {fileID: 0}
@@ -999,5 +999,5 @@ MonoBehaviour:
       description: 
       descriptionLineID: -1
       stateType: 2
-    lockStateWhenComplete: 1
-    lockStateWhenFail: 1
+    lockStateWhenComplete: 0
+    lockStateWhenFail: 0
