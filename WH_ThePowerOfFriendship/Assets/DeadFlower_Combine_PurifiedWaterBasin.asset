@@ -29,22 +29,22 @@ MonoBehaviour:
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
-  isAssetFile: 0
+  isAssetFile: 1
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 0
-    y: 0
+    x: 14
+    y: 200
     width: 300
-    height: 60
+    height: 132
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 0}
-  invAction: 0
+  invAction: 2
   parameterID: -1
-  invID: 0
+  invID: 11
   replaceParameterID: -1
-  invIDReplace: 0
+  invIDReplace: 10
   setAmount: 0
   amountParameterID: -1
   amount: 1
@@ -112,15 +112,15 @@ MonoBehaviour:
     x: 14
     y: 14
     width: 300
-    height: 132
+    height: 152
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 0}
   invAction: 2
   parameterID: -1
-  invID: 0
+  invID: 12
   replaceParameterID: -1
-  invIDReplace: 0
+  invIDReplace: 9
   setAmount: 0
   amountParameterID: -1
   amount: 1
