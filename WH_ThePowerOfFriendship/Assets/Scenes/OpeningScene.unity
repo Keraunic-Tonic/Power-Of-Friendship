@@ -121,6 +121,56 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &111813435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74813bf97090c47b39d9f3d0ec84a80b, type: 3}
+  m_Name: ActionMenuState
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 10
+  title: Change state
+  description: Provides various options to show and hide both menus and menu elements.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 2
+  skipAction: 2
+  skipActionActual: {fileID: 699013224}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 297
+    width: 300
+    height: 152
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 5086884241276725460}
+  changeType: 1
+  removeJournalPageMethod: 0
+  menuToChange: Inventory
+  menuToChangeParameterID: -1
+  elementToChange: 
+  elementToChangeParameterID: -1
+  journalText: 
+  onlyAddNewJournal: 0
+  doFade: 0
+  lineID: -1
+  journalPageIndex: -1
+  journalPageIndexParameterID: -1
 --- !u!1 &118335311
 GameObject:
   m_ObjectHideFlags: 0
@@ -175,7 +225,7 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 0
-  skipAction: 9
+  skipAction: 11
   skipActionActual: {fileID: 166289341}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -185,7 +235,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 1884
+    y: 2349
     width: 300
     height: 172
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -265,7 +315,7 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 0
-  skipAction: 6
+  skipAction: 8
   skipActionActual: {fileID: 420426362}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -275,7 +325,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 1218
+    y: 1683
     width: 300
     height: 202
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -362,6 +412,55 @@ Transform:
   m_Father: {fileID: 1225436480}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &524566589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 387c24c00c16b447397110e033cf59f9, type: 3}
+  m_Name: ActionMusic
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 17
+  title: Play music
+  description: Plays or queues music clips.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 2
+  skipAction: 1
+  skipActionActual: {fileID: 111813435}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 14
+    width: 300
+    height: 253
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 0}
+  trackID: 0
+  trackIDParameterID: -1
+  fadeTime: 0
+  fadeTimeParameterID: -1
+  loop: 1
+  isQueued: 0
+  resumeFromStart: 1
+  resumeIfPlayedBefore: 1
+  willWaitComplete: 0
+  musicAction: 0
+  loopingOverlapTime: 0
 --- !u!114 &574048027
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -386,7 +485,7 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 0
-  skipAction: 7
+  skipAction: 9
   skipActionActual: {fileID: 574048027}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -396,7 +495,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 1450
+    y: 1915
     width: 300
     height: 187
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -496,6 +595,56 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   is2D: 0
+--- !u!114 &601177136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74813bf97090c47b39d9f3d0ec84a80b, type: 3}
+  m_Name: ActionMenuState
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 10
+  title: Change state
+  description: Provides various options to show and hide both menus and menu elements.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 2
+  skipAction: 13
+  skipActionActual: {fileID: 1753870704}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 2833
+    width: 300
+    height: 152
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 5086884241276725460}
+  changeType: 0
+  removeJournalPageMethod: 0
+  menuToChange: Inventory
+  menuToChangeParameterID: -1
+  elementToChange: 
+  elementToChangeParameterID: -1
+  journalText: 
+  onlyAddNewJournal: 0
+  doFade: 0
+  lineID: -1
+  journalPageIndex: -1
+  journalPageIndexParameterID: -1
 --- !u!1 &652271998
 GameObject:
   m_ObjectHideFlags: 0
@@ -551,7 +700,7 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 0
-  skipAction: 1
+  skipAction: 3
   skipActionActual: {fileID: 982647949}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -561,7 +710,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 14
+    y: 479
     width: 300
     height: 158
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -572,7 +721,7 @@ MonoBehaviour:
   isPlayer: 1
   playerID: -1
   _char: {fileID: 0}
-  newPortraitGraphic: {fileID: 2800000, guid: 799f9435f3b085846ac07d0eb3318168, type: 3}
+  newPortraitGraphic: {fileID: 2800000, guid: 360f7837f40343f42965cba9b1ead9b0, type: 3}
 --- !u!1 &749178148
 GameObject:
   m_ObjectHideFlags: 0
@@ -708,7 +857,7 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 0
-  skipAction: 8
+  skipAction: 10
   skipActionActual: {fileID: 782789388}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -718,7 +867,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 1667
+    y: 2132
     width: 300
     height: 187
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -806,7 +955,7 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 0
-  skipAction: 3
+  skipAction: 5
   skipActionActual: {fileID: 1101292542}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -816,7 +965,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 202
+    y: 667
     width: 300
     height: 187
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -895,9 +1044,9 @@ MonoBehaviour:
   comment: 
   numSockets: 1
   willWait: 0
-  endAction: 0
-  skipAction: 11
-  skipActionActual: {fileID: 1753870704}
+  endAction: 2
+  skipAction: 14
+  skipActionActual: {fileID: 601177136}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -906,9 +1055,9 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 2086
+    y: 2551
     width: 300
-    height: 232
+    height: 252
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 5086884241276725460}
@@ -999,7 +1148,7 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 0
-  skipAction: 4
+  skipAction: 6
   skipActionActual: {fileID: 1701642122}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -1009,7 +1158,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 607
+    y: 1072
     width: 300
     height: 202
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1062,7 +1211,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 7909458999652124963}
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1091,7 +1241,7 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 0
-  skipAction: 3
+  skipAction: 5
   skipActionActual: {fileID: 1101292542}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -1101,7 +1251,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 419
+    y: 884
     width: 300
     height: 158
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1112,7 +1262,7 @@ MonoBehaviour:
   isPlayer: 1
   playerID: -1
   _char: {fileID: 0}
-  newPortraitGraphic: {fileID: 2800000, guid: 3d03a90ac26ddcc428b5b8711366e3fb, type: 3}
+  newPortraitGraphic: {fileID: 2800000, guid: ace51d48d37f76d44be736c2a150eb48, type: 3}
 --- !u!1 &1119522167
 GameObject:
   m_ObjectHideFlags: 0
@@ -1522,7 +1672,7 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 0
-  skipAction: 4
+  skipAction: 6
   skipActionActual: {fileID: 1701642122}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -1532,7 +1682,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 839
+    y: 1304
     width: 300
     height: 132
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1567,7 +1717,7 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 0
-  skipAction: 6
+  skipAction: 8
   skipActionActual: {fileID: 420426362}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -1577,7 +1727,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 1001
+    y: 1466
     width: 300
     height: 187
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1659,7 +1809,7 @@ MonoBehaviour:
   numSockets: 0
   willWait: 0
   endAction: 1
-  skipAction: 11
+  skipAction: 13
   skipActionActual: {fileID: 1753870704}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -1669,7 +1819,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 2348
+    y: 3015
     width: 300
     height: 164
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -2228,6 +2378,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
+  - {fileID: 524566589}
+  - {fileID: 111813435}
   - {fileID: 699013224}
   - {fileID: 982647949}
   - {fileID: 1110069465}
@@ -2240,6 +2392,7 @@ MonoBehaviour:
   - {fileID: 166289341}
   - {fileID: 1024844892}
   - {fileID: 1753870704}
+  - {fileID: 601177136}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
@@ -2355,3 +2508,147 @@ MonoBehaviour:
   playerIDs: 
   limitByPlayer: 0
   limitByActive: 0
+--- !u!114 &7909458999645561059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7909458999652619523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec24addacf0f943ec9d49ef8b23addaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundType: 0
+  playWhilePaused: 0
+  relativeVolume: 1
+  surviveSceneChange: 0
+--- !u!82 &7909458999650749667
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7909458999652619523}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!4 &7909458999652124963
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7909458999652619523}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1106873739}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7909458999652619523
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7909458999652124963}
+  - component: {fileID: 7909458999650749667}
+  - component: {fileID: 7909458999645561059}
+  m_Layer: 2
+  m_Name: BGMusic
+  m_TagString: Untagged
+  m_Icon: {fileID: 4892941663561143343, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1

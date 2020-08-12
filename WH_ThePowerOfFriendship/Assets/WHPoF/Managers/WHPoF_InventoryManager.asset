@@ -86,78 +86,6 @@ MonoBehaviour:
     unhandledActionList: {fileID: 0}
     unhandledCombineActionList: {fileID: 0}
     showInFilter: 1
-  - label: Empty Orb
-    id: 1
-    altLabel: 
-    carryOnStart: 0
-    carryOnStartNotDefault: 0
-    carryOnStartID: 0
-    carryOnStartIDs: 
-    vars:
-    - label: Property 1
-      id: 0
-      type: 0
-      val: 0
-      floatVal: 0
-      textVal: 
-      popUps: []
-      vector3Val: {x: 0, y: 0, z: 0}
-      link: 0
-      pmVar: 
-      updateLinkOnStart: 0
-      canTranslate: 1
-      popUpID: 0
-      textValLineID: -1
-      popUpsLineID: -1
-      description: 
-      showInFilter: 0
-      limitToCategories: 0
-      categoryIDs: 
-    canCarryMultiple: 0
-    count: 1
-    useSeparateSlots: 0
-    selectSingle: 0
-    tex: {fileID: 2800000, guid: fed4414f118846c4d8819790cdbaa116, type: 3}
-    activeTex: {fileID: 0}
-    selectedTex: {fileID: 0}
-    linkedPrefab: {fileID: 0}
-    cursorIcon:
-      texture: {fileID: 0}
-      isAnimated: 0
-      numFrames: 1
-      numRows: 1
-      numCols: 1
-      size: 0.04
-      animSpeed: 4
-      endAnimOnLastFrame: 0
-      skipFirstFrameWhenLooping: 0
-      clickOffset: {x: 0, y: 0}
-      frameSpeeds: []
-      alwaysAnimate: 0
-      dontCycle: 0
-      label: Icon 1
-      lineID: -1
-      id: 0
-    lineID: -1
-    useIconID: 0
-    binID: -1
-    recipeSlot: -1
-    lastInteractionIndex: 0
-    overrideUseSyntax: 0
-    hotspotPrefix1:
-      label: Use
-      lineID: -1
-    hotspotPrefix2:
-      label: on
-      lineID: -1
-    useActionList: {fileID: 0}
-    lookActionList: {fileID: 0}
-    interactions: []
-    combineActionList: []
-    combineID: 
-    unhandledActionList: {fileID: 0}
-    unhandledCombineActionList: {fileID: 0}
-    showInFilter: 1
   - label: Full Orb
     id: 2
     altLabel: 
@@ -693,7 +621,7 @@ MonoBehaviour:
     count: 1
     useSeparateSlots: 0
     selectSingle: 0
-    tex: {fileID: 2800000, guid: 156b2cec25b034710805510b49685ac9, type: 3}
+    tex: {fileID: 2800000, guid: bb03b95ed246a9c4bba1dfb82ac90f71, type: 3}
     activeTex: {fileID: 0}
     selectedTex: {fileID: 0}
     linkedPrefab: {fileID: 0}
@@ -766,7 +694,7 @@ MonoBehaviour:
     count: 1
     useSeparateSlots: 0
     selectSingle: 0
-    tex: {fileID: 2800000, guid: 141f9cd2b688541f7a6ec2e52cc5e736, type: 3}
+    tex: {fileID: 2800000, guid: cb9917f9c8e96ff4589d24490cf5892e, type: 3}
     activeTex: {fileID: 0}
     selectedTex: {fileID: 0}
     linkedPrefab: {fileID: 0}
@@ -807,7 +735,7 @@ MonoBehaviour:
     unhandledActionList: {fileID: 0}
     unhandledCombineActionList: {fileID: 0}
     showInFilter: 1
-  - label: Purified Water Basin
+  - label: Purified Water
     id: 11
     altLabel: 
     carryOnStart: 0
@@ -838,7 +766,7 @@ MonoBehaviour:
     count: 1
     useSeparateSlots: 0
     selectSingle: 0
-    tex: {fileID: 2800000, guid: 2f54aa903ea3d44f4803e1c76dbd425d, type: 3}
+    tex: {fileID: 2800000, guid: afcc194e47fb7cf4894a1b11ec360e6d, type: 3}
     activeTex: {fileID: 0}
     selectedTex: {fileID: 0}
     linkedPrefab: {fileID: 0}
@@ -910,7 +838,7 @@ MonoBehaviour:
     count: 1
     useSeparateSlots: 0
     selectSingle: 0
-    tex: {fileID: 2800000, guid: 9e6f65e6cb1f743e9886d87aec9b1c9e, type: 3}
+    tex: {fileID: 2800000, guid: b0bedd45a7339c44f8c2b228dfc0ad27, type: 3}
     activeTex: {fileID: 0}
     selectedTex: {fileID: 0}
     linkedPrefab: {fileID: 0}
@@ -999,5 +927,5 @@ MonoBehaviour:
       description: 
       descriptionLineID: -1
       stateType: 2
-    lockStateWhenComplete: 1
-    lockStateWhenFail: 1
+    lockStateWhenComplete: 0
+    lockStateWhenFail: 0

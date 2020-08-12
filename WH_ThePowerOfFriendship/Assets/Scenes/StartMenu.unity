@@ -381,6 +381,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8286744, guid: 45616935e4fe10f48b62da1347801a16, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: db1c93a6efe2c6f45923fd4641074569, type: 3}
     - target: {fileID: 11403680, guid: 45616935e4fe10f48b62da1347801a16, type: 3}
       propertyPath: m_FontData.m_Font
       value: 
@@ -444,6 +448,10 @@ PrefabInstance:
     - target: {fileID: 11488040, guid: 45616935e4fe10f48b62da1347801a16, type: 3}
       propertyPath: changeScenes
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11488040, guid: 45616935e4fe10f48b62da1347801a16, type: 3}
+      propertyPath: changeMusicOnStart
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11490476, guid: 45616935e4fe10f48b62da1347801a16, type: 3}
       propertyPath: m_Color.r
