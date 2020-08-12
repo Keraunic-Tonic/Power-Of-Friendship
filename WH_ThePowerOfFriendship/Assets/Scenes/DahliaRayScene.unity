@@ -240,6 +240,63 @@ MonoBehaviour:
   playerID: -1
   _char: {fileID: 557815986}
   newPortraitGraphic: {fileID: 2800000, guid: dc4aa94d4e3fbf24e8f01df2bb741615, type: 3}
+--- !u!114 &46125240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea4c3ba658ee84d51a7ccd6f9fc22176, type: 3}
+  m_Name: ActionRunActionList
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 0
+  title: Run
+  description: Runs any ActionList (either scene-based like Cutscenes, Triggers and
+    Interactions, or ActionList assets). If the new ActionList takes parameters,
+    this Action can be used to set them.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 1
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 24
+    y: 1950
+    width: 300
+    height: 152
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 6625578000368943052}
+  listSource: 1
+  actionList: {fileID: 0}
+  constantID: 0
+  parameterID: -1
+  invActionList: {fileID: 11400000, guid: 5e9553917ca2e3649827a6de9d4a269a, type: 2}
+  assetParameterID: -1
+  runFromStart: 1
+  jumpToAction: 0
+  jumpToActionParameterID: -1
+  jumpToActionActual: {fileID: 0}
+  runInParallel: 1
+  isSkippable: 0
+  localParameters: []
+  parameterIDs: 
+  setParameters: 0
+  runMode: 0
+  hasUpgradedAgain: 0
 --- !u!114 &49950790
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -359,53 +416,6 @@ MonoBehaviour:
   playerID: -1
   _char: {fileID: 0}
   newPortraitGraphic: {fileID: 2800000, guid: b261345c9584b374f80203aa2a676ca4, type: 3}
---- !u!114 &92871123
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57a72d74a258e413bacd504f0fdb611b, type: 3}
-  m_Name: ActionCharPortrait(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 2
-  title: Switch Portrait
-  description: 'Changes the ''speaking'' graphic used by Characters. To display this
-    graphic in a Menu, place a Graphic element of type Dialogue Portrait in a Menu
-    of Appear type: When Speech Plays. If the new graphic is placed in a Resources
-    folder, it will be stored in saved game files.'
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  numSockets: 1
-  willWait: 0
-  endAction: 2
-  skipAction: 12
-  skipActionActual: {fileID: 1960157830}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 14
-    y: 3642
-    width: 300
-    height: 198
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 0}
-  parameterID: -1
-  constantID: 0
-  isPlayer: 0
-  playerID: -1
-  _char: {fileID: 1946801472}
-  newPortraitGraphic: {fileID: 2800000, guid: f29abae63302a7249bc1495964901d84, type: 3}
 --- !u!114 &100590452
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -720,7 +730,7 @@ MonoBehaviour:
   willWait: 0
   endAction: 2
   skipAction: 21
-  skipActionActual: {fileID: 2088224432}
+  skipActionActual: {fileID: 1599626765}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -755,6 +765,53 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0
+--- !u!114 &156589048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57a72d74a258e413bacd504f0fdb611b, type: 3}
+  m_Name: ActionCharPortrait
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 2
+  title: Switch Portrait
+  description: 'Changes the ''speaking'' graphic used by Characters. To display this
+    graphic in a Menu, place a Graphic element of type Dialogue Portrait in a Menu
+    of Appear type: When Speech Plays. If the new graphic is placed in a Resources
+    folder, it will be stored in saved game files.'
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 2
+  skipAction: 12
+  skipActionActual: {fileID: 1960157830}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 3642
+    width: 300
+    height: 198
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 8766761579902604570}
+  parameterID: -1
+  constantID: 0
+  isPlayer: 0
+  playerID: -1
+  _char: {fileID: 1946801472}
+  newPortraitGraphic: {fileID: 2800000, guid: f29abae63302a7249bc1495964901d84, type: 3}
 --- !u!114 &163469731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1523,7 +1580,7 @@ MonoBehaviour:
     assetFile: {fileID: 0}
     customScriptObject: {fileID: 0}
     customScriptFunction: 
-    isDisabled: 0
+    isDisabled: 1
     invID: 0
     iconID: -1
     selectItemMode: 0
@@ -1771,7 +1828,7 @@ MonoBehaviour:
   willWait: 0
   endAction: 2
   skipAction: 22
-  skipActionActual: {fileID: 92871123}
+  skipActionActual: {fileID: 156589048}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -1830,9 +1887,9 @@ MonoBehaviour:
   comment: 
   numSockets: 1
   willWait: 0
-  endAction: 1
-  skipAction: 17
-  skipActionActual: {fileID: 384432199}
+  endAction: 2
+  skipAction: 23
+  skipActionActual: {fileID: 2109176940}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -1843,7 +1900,7 @@ MonoBehaviour:
     x: 14
     y: 4936
     width: 300
-    height: 187
+    height: 207
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 8766761579902604570}
@@ -2087,63 +2144,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &474641124
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea4c3ba658ee84d51a7ccd6f9fc22176, type: 3}
-  m_Name: ActionRunActionList
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 0
-  title: Run
-  description: Runs any ActionList (either scene-based like Cutscenes, Triggers and
-    Interactions, or ActionList assets). If the new ActionList takes parameters,
-    this Action can be used to set them.
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  numSockets: 1
-  willWait: 0
-  endAction: 1
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 24
-    y: 1950
-    width: 300
-    height: 152
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 0}
-  listSource: 1
-  actionList: {fileID: 0}
-  constantID: 0
-  parameterID: -1
-  invActionList: {fileID: 11400000, guid: 5e9553917ca2e3649827a6de9d4a269a, type: 2}
-  assetParameterID: -1
-  runFromStart: 1
-  jumpToAction: 0
-  jumpToActionParameterID: -1
-  jumpToActionActual: {fileID: 0}
-  runInParallel: 1
-  isSkippable: 0
-  localParameters: []
-  parameterIDs: 
-  setParameters: 0
-  runMode: 0
-  hasUpgradedAgain: 0
 --- !u!114 &481313177
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2188,77 +2188,6 @@ MonoBehaviour:
   constantID: 0
   conversation: {fileID: 3134353811523498899}
   overrideOptions: 0
---- !u!114 &482587868
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0f86ace5fdd94f0a86553230ec9308f, type: 3}
-  m_Name: ActionVarSet
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 19
-  title: Set
-  description: Sets the value of both Global and Local Variables, as declared in
-    the Variables Manager. Integers can be set to absolute, incremented or assigned
-    a random value. Strings can also be set to the value of a MenuInput element,
-    while Integers, Booleans and Floats can also be set to the value of a Mecanim
-    parameter. When setting Integers and Floats, you can also opt to type in a forumla
-    (e.g. 2 + 3 *4), which can also include tokens of the form [var:ID] to denote
-    the value of a Variable, where ID is the unique number given to a Variable in
-    the Variables Manager.
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  numSockets: 1
-  willWait: 0
-  endAction: 0
-  skipAction: 8
-  skipActionActual: {fileID: 482587868}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 20
-    y: 1774.1642
-    width: 300
-    height: 152
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 0}
-  setVarMethod: 0
-  setVarMethodString: 0
-  setVarMethodIntBool: 0
-  setVarMethodVector: 0
-  parameterID: -1
-  variableID: 4
-  variableNumber: 4
-  setParameterID: -1
-  slotNumber: 0
-  slotNumberParameterID: -1
-  intValue: 0
-  floatValue: 0
-  boolValue: 1
-  stringValue: 
-  formula: 
-  vector3Value: {x: 0, y: 0, z: 0}
-  lineID: -1
-  location: 0
-  menuName: 
-  elementName: 
-  animator: {fileID: 0}
-  parameterName: 
-  variables: {fileID: 0}
-  variablesConstantID: 0
-  placeholderType: 0
-  placeholderPopUpLabelDataID: -1
 --- !u!114 &498951995
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2306,6 +2235,53 @@ MonoBehaviour:
   playerID: -1
   _char: {fileID: 0}
   newPortraitGraphic: {fileID: 2800000, guid: 3d03a90ac26ddcc428b5b8711366e3fb, type: 3}
+--- !u!114 &510798900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57a72d74a258e413bacd504f0fdb611b, type: 3}
+  m_Name: ActionCharPortrait
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 2
+  title: Switch Portrait
+  description: 'Changes the ''speaking'' graphic used by Characters. To display this
+    graphic in a Menu, place a Graphic element of type Dialogue Portrait in a Menu
+    of Appear type: When Speech Plays. If the new graphic is placed in a Resources
+    folder, it will be stored in saved game files.'
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 2
+  skipAction: 4
+  skipActionActual: {fileID: 641774665}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 873
+    width: 300
+    height: 198
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 8766761579902604570}
+  parameterID: -1
+  constantID: 0
+  isPlayer: 0
+  playerID: -1
+  _char: {fileID: 1946801472}
+  newPortraitGraphic: {fileID: 2800000, guid: 76848175be966274c8890c5f8ea10151, type: 3}
 --- !u!1 &527980007
 GameObject:
   m_ObjectHideFlags: 0
@@ -3011,6 +2987,63 @@ Transform:
   m_Father: {fileID: 1438886918}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &573409869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea4c3ba658ee84d51a7ccd6f9fc22176, type: 3}
+  m_Name: ActionRunActionList
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 0
+  title: Run
+  description: Runs any ActionList (either scene-based like Cutscenes, Triggers and
+    Interactions, or ActionList assets). If the new ActionList takes parameters,
+    this Action can be used to set them.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 1
+  skipAction: 7
+  skipActionActual: {fileID: 573409869}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 1620
+    width: 300
+    height: 152
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 5288749610408716283}
+  listSource: 1
+  actionList: {fileID: 0}
+  constantID: 0
+  parameterID: -1
+  invActionList: {fileID: 11400000, guid: 5e9553917ca2e3649827a6de9d4a269a, type: 2}
+  assetParameterID: -1
+  runFromStart: 1
+  jumpToAction: 0
+  jumpToActionParameterID: -1
+  jumpToActionActual: {fileID: 0}
+  runInParallel: 1
+  isSkippable: 0
+  localParameters: []
+  parameterIDs: 
+  setParameters: 0
+  runMode: 0
+  hasUpgradedAgain: 0
 --- !u!1 &601882273
 GameObject:
   m_ObjectHideFlags: 0
@@ -3173,7 +3206,7 @@ MonoBehaviour:
   willWait: 0
   endAction: 2
   skipAction: 19
-  skipActionActual: {fileID: 886429222}
+  skipActionActual: {fileID: 1973795983}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -3563,53 +3596,6 @@ MonoBehaviour:
   playerID: -1
   _char: {fileID: 557815986}
   newPortraitGraphic: {fileID: 2800000, guid: 296ea88d95c5a5b48989c3c1c6ed5624, type: 3}
---- !u!114 &796286093
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57a72d74a258e413bacd504f0fdb611b, type: 3}
-  m_Name: ActionCharPortrait(Clone)(Clone)
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 2
-  title: Switch Portrait
-  description: 'Changes the ''speaking'' graphic used by Characters. To display this
-    graphic in a Menu, place a Graphic element of type Dialogue Portrait in a Menu
-    of Appear type: When Speech Plays. If the new graphic is placed in a Resources
-    folder, it will be stored in saved game files.'
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  numSockets: 1
-  willWait: 0
-  endAction: 2
-  skipAction: 4
-  skipActionActual: {fileID: 641774665}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 14
-    y: 873
-    width: 300
-    height: 198
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 0}
-  parameterID: -1
-  constantID: 0
-  isPlayer: 0
-  playerID: -1
-  _char: {fileID: 1946801472}
-  newPortraitGraphic: {fileID: 2800000, guid: 76848175be966274c8890c5f8ea10151, type: 3}
 --- !u!114 &799112717
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3885,53 +3871,6 @@ Transform:
   m_Father: {fileID: 150957980}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &886429222
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57a72d74a258e413bacd504f0fdb611b, type: 3}
-  m_Name: ActionCharPortrait(Clone)(Clone)(Clone)
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 2
-  title: Switch Portrait
-  description: 'Changes the ''speaking'' graphic used by Characters. To display this
-    graphic in a Menu, place a Graphic element of type Dialogue Portrait in a Menu
-    of Appear type: When Speech Plays. If the new graphic is placed in a Resources
-    folder, it will be stored in saved game files.'
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  numSockets: 1
-  willWait: 0
-  endAction: 2
-  skipAction: 5
-  skipActionActual: {fileID: 1570588762}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 14
-    y: 1343
-    width: 300
-    height: 198
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 0}
-  parameterID: -1
-  constantID: 0
-  isPlayer: 0
-  playerID: -1
-  _char: {fileID: 1946801472}
-  newPortraitGraphic: {fileID: 2800000, guid: a03f55fa27632ad45ba3959216f35d8c, type: 3}
 --- !u!114 &888086310
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4735,6 +4674,53 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0
+--- !u!114 &1032615665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57a72d74a258e413bacd504f0fdb611b, type: 3}
+  m_Name: ActionCharPortrait
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 2
+  title: Switch Portrait
+  description: 'Changes the ''speaking'' graphic used by Characters. To display this
+    graphic in a Menu, place a Graphic element of type Dialogue Portrait in a Menu
+    of Appear type: When Speech Plays. If the new graphic is placed in a Resources
+    folder, it will be stored in saved game files.'
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 2
+  skipAction: 6
+  skipActionActual: {fileID: 248651846}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 1813
+    width: 300
+    height: 198
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 8766761579902604570}
+  parameterID: -1
+  constantID: 0
+  isPlayer: 0
+  playerID: -1
+  _char: {fileID: 1946801472}
+  newPortraitGraphic: {fileID: 2800000, guid: f29abae63302a7249bc1495964901d84, type: 3}
 --- !u!1 &1040077802
 GameObject:
   m_ObjectHideFlags: 0
@@ -5028,7 +5014,7 @@ MonoBehaviour:
   willWait: 0
   endAction: 2
   skipAction: 18
-  skipActionActual: {fileID: 796286093}
+  skipActionActual: {fileID: 510798900}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -5325,7 +5311,7 @@ GameObject:
   - component: {fileID: 1170273051}
   - component: {fileID: 1170273050}
   m_Layer: 0
-  m_Name: DahliaRaySampleBG
+  m_Name: RoomBG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5425,6 +5411,77 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1199357997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0f86ace5fdd94f0a86553230ec9308f, type: 3}
+  m_Name: ActionVarSet
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 19
+  title: Set
+  description: Sets the value of both Global and Local Variables, as declared in
+    the Variables Manager. Integers can be set to absolute, incremented or assigned
+    a random value. Strings can also be set to the value of a MenuInput element,
+    while Integers, Booleans and Floats can also be set to the value of a Mecanim
+    parameter. When setting Integers and Floats, you can also opt to type in a forumla
+    (e.g. 2 + 3 *4), which can also include tokens of the form [var:ID] to denote
+    the value of a Variable, where ID is the unique number given to a Variable in
+    the Variables Manager.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 0
+  skipAction: 8
+  skipActionActual: {fileID: 1199357997}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 20
+    y: 1774.1642
+    width: 300
+    height: 152
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 6625578000368943052}
+  setVarMethod: 0
+  setVarMethodString: 0
+  setVarMethodIntBool: 0
+  setVarMethodVector: 0
+  parameterID: -1
+  variableID: 4
+  variableNumber: 4
+  setParameterID: -1
+  slotNumber: 0
+  slotNumberParameterID: -1
+  intValue: 0
+  floatValue: 0
+  boolValue: 1
+  stringValue: 
+  formula: 
+  vector3Value: {x: 0, y: 0, z: 0}
+  lineID: -1
+  location: 0
+  menuName: 
+  elementName: 
+  animator: {fileID: 0}
+  parameterName: 
+  variables: {fileID: 0}
+  variablesConstantID: 0
+  placeholderType: 0
+  placeholderPopUpLabelDataID: -1
 --- !u!114 &1228686616
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5604,6 +5661,53 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0
+--- !u!114 &1266595287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57a72d74a258e413bacd504f0fdb611b, type: 3}
+  m_Name: ActionCharPortrait
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 2
+  title: Switch Portrait
+  description: 'Changes the ''speaking'' graphic used by Characters. To display this
+    graphic in a Menu, place a Graphic element of type Dialogue Portrait in a Menu
+    of Appear type: When Speech Plays. If the new graphic is placed in a Resources
+    folder, it will be stored in saved game files.'
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 2
+  skipAction: 1
+  skipActionActual: {fileID: 2110835877}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 14
+    width: 300
+    height: 198
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 4807942374093509946}
+  parameterID: -1
+  constantID: 0
+  isPlayer: 0
+  playerID: -1
+  _char: {fileID: 1946801472}
+  newPortraitGraphic: {fileID: 2800000, guid: a03f55fa27632ad45ba3959216f35d8c, type: 3}
 --- !u!114 &1284521074
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5665,53 +5769,6 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0
---- !u!114 &1299094846
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57a72d74a258e413bacd504f0fdb611b, type: 3}
-  m_Name: ActionCharPortrait(Clone)(Clone)(Clone)(Clone)
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 2
-  title: Switch Portrait
-  description: 'Changes the ''speaking'' graphic used by Characters. To display this
-    graphic in a Menu, place a Graphic element of type Dialogue Portrait in a Menu
-    of Appear type: When Speech Plays. If the new graphic is placed in a Resources
-    folder, it will be stored in saved game files.'
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  numSockets: 1
-  willWait: 0
-  endAction: 2
-  skipAction: 6
-  skipActionActual: {fileID: 248651846}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 14
-    y: 1813
-    width: 300
-    height: 198
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 0}
-  parameterID: -1
-  constantID: 0
-  isPlayer: 0
-  playerID: -1
-  _char: {fileID: 1946801472}
-  newPortraitGraphic: {fileID: 2800000, guid: f29abae63302a7249bc1495964901d84, type: 3}
 --- !u!114 &1307235831
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6652,7 +6709,7 @@ MonoBehaviour:
   willWait: 0
   endAction: 2
   skipAction: 20
-  skipActionActual: {fileID: 1299094846}
+  skipActionActual: {fileID: 1032615665}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -6687,7 +6744,7 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0
---- !u!114 &1594904073
+--- !u!114 &1599626765
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6697,7 +6754,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 57a72d74a258e413bacd504f0fdb611b, type: 3}
-  m_Name: ActionCharPortrait(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_Name: ActionCharPortrait
   m_EditorClassIdentifier: 
   id: 0
   category: 2
@@ -6712,8 +6769,8 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 2
-  skipAction: 1
-  skipActionActual: {fileID: 2110835877}
+  skipAction: 9
+  skipActionActual: {fileID: 316024696}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -6722,18 +6779,18 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 14
+    y: 2688
     width: 300
     height: 198
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
-  parentActionListInEditor: {fileID: 0}
+  parentActionListInEditor: {fileID: 8766761579902604570}
   parameterID: -1
   constantID: 0
   isPlayer: 0
   playerID: -1
   _char: {fileID: 1946801472}
-  newPortraitGraphic: {fileID: 2800000, guid: a03f55fa27632ad45ba3959216f35d8c, type: 3}
+  newPortraitGraphic: {fileID: 2800000, guid: 76848175be966274c8890c5f8ea10151, type: 3}
 --- !u!114 &1695710226
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6794,6 +6851,53 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0
+--- !u!114 &1700063887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57a72d74a258e413bacd504f0fdb611b, type: 3}
+  m_Name: ActionCharPortrait
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 2
+  title: Switch Portrait
+  description: 'Changes the ''speaking'' graphic used by Characters. To display this
+    graphic in a Menu, place a Graphic element of type Dialogue Portrait in a Menu
+    of Appear type: When Speech Plays. If the new graphic is placed in a Resources
+    folder, it will be stored in saved game files.'
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 2
+  skipAction: 3
+  skipActionActual: {fileID: 1492733429}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 993
+    width: 300
+    height: 178
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 5288749610408716283}
+  parameterID: -1
+  constantID: 0
+  isPlayer: 1
+  playerID: -1
+  _char: {fileID: 1946801472}
+  newPortraitGraphic: {fileID: 2800000, guid: 3d03a90ac26ddcc428b5b8711366e3fb, type: 3}
 --- !u!114 &1702643061
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6962,6 +7066,77 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0
+--- !u!114 &1760317588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0f86ace5fdd94f0a86553230ec9308f, type: 3}
+  m_Name: ActionVarSet
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 19
+  title: Set
+  description: Sets the value of both Global and Local Variables, as declared in
+    the Variables Manager. Integers can be set to absolute, incremented or assigned
+    a random value. Strings can also be set to the value of a MenuInput element,
+    while Integers, Booleans and Floats can also be set to the value of a Mecanim
+    parameter. When setting Integers and Floats, you can also opt to type in a forumla
+    (e.g. 2 + 3 *4), which can also include tokens of the form [var:ID] to denote
+    the value of a Variable, where ID is the unique number given to a Variable in
+    the Variables Manager.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 2
+  skipAction: 1
+  skipActionActual: {fileID: 234437640}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 196
+    width: 300
+    height: 172
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 3653223872819899933}
+  setVarMethod: 0
+  setVarMethodString: 0
+  setVarMethodIntBool: 0
+  setVarMethodVector: 0
+  parameterID: -1
+  variableID: 0
+  variableNumber: 0
+  setParameterID: -1
+  slotNumber: 0
+  slotNumberParameterID: -1
+  intValue: 0
+  floatValue: 0
+  boolValue: 1
+  stringValue: 
+  formula: 
+  vector3Value: {x: 0, y: 0, z: 0}
+  lineID: -1
+  location: 0
+  menuName: 
+  elementName: 
+  animator: {fileID: 0}
+  parameterName: 
+  variables: {fileID: 0}
+  variablesConstantID: 0
+  placeholderType: 0
+  placeholderPopUpLabelDataID: -1
 --- !u!114 &1766678828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7631,6 +7806,63 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1869039061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea4c3ba658ee84d51a7ccd6f9fc22176, type: 3}
+  m_Name: ActionRunActionList
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 0
+  title: Run
+  description: Runs any ActionList (either scene-based like Cutscenes, Triggers and
+    Interactions, or ActionList assets). If the new ActionList takes parameters,
+    this Action can be used to set them.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 1
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 1104
+    width: 300
+    height: 152
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 3653223872819899933}
+  listSource: 1
+  actionList: {fileID: 0}
+  constantID: 0
+  parameterID: -1
+  invActionList: {fileID: 11400000, guid: 5e9553917ca2e3649827a6de9d4a269a, type: 2}
+  assetParameterID: -1
+  runFromStart: 1
+  jumpToAction: 0
+  jumpToActionParameterID: -1
+  jumpToActionActual: {fileID: 0}
+  runInParallel: 1
+  isSkippable: 0
+  localParameters: []
+  parameterIDs: 
+  setParameters: 0
+  runMode: 0
+  hasUpgradedAgain: 0
 --- !u!114 &1870287309
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8236,6 +8468,53 @@ MonoBehaviour:
   playerID: -1
   _char: {fileID: 1946801472}
   newPortraitGraphic: {fileID: 2800000, guid: 3d03a90ac26ddcc428b5b8711366e3fb, type: 3}
+--- !u!114 &1973795983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57a72d74a258e413bacd504f0fdb611b, type: 3}
+  m_Name: ActionCharPortrait
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 2
+  title: Switch Portrait
+  description: 'Changes the ''speaking'' graphic used by Characters. To display this
+    graphic in a Menu, place a Graphic element of type Dialogue Portrait in a Menu
+    of Appear type: When Speech Plays. If the new graphic is placed in a Resources
+    folder, it will be stored in saved game files.'
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 2
+  skipAction: 5
+  skipActionActual: {fileID: 1570588762}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 1343
+    width: 300
+    height: 198
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 8766761579902604570}
+  parameterID: -1
+  constantID: 0
+  isPlayer: 0
+  playerID: -1
+  _char: {fileID: 1946801472}
+  newPortraitGraphic: {fileID: 2800000, guid: a03f55fa27632ad45ba3959216f35d8c, type: 3}
 --- !u!1 &2007073213
 GameObject:
   m_ObjectHideFlags: 0
@@ -8313,63 +8592,6 @@ MonoBehaviour:
   playerID: -1
   _char: {fileID: 557815986}
   newPortraitGraphic: {fileID: 2800000, guid: dc4aa94d4e3fbf24e8f01df2bb741615, type: 3}
---- !u!114 &2008553806
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea4c3ba658ee84d51a7ccd6f9fc22176, type: 3}
-  m_Name: ActionRunActionList
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 0
-  title: Run
-  description: Runs any ActionList (either scene-based like Cutscenes, Triggers and
-    Interactions, or ActionList assets). If the new ActionList takes parameters,
-    this Action can be used to set them.
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  numSockets: 1
-  willWait: 0
-  endAction: 1
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 14
-    y: 1104
-    width: 300
-    height: 152
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 0}
-  listSource: 1
-  actionList: {fileID: 0}
-  constantID: 0
-  parameterID: -1
-  invActionList: {fileID: 11400000, guid: 5e9553917ca2e3649827a6de9d4a269a, type: 2}
-  assetParameterID: -1
-  runFromStart: 1
-  jumpToAction: 0
-  jumpToActionParameterID: -1
-  jumpToActionActual: {fileID: 0}
-  runInParallel: 1
-  isSkippable: 0
-  localParameters: []
-  parameterIDs: 
-  setParameters: 0
-  runMode: 0
-  hasUpgradedAgain: 0
 --- !u!1 &2042559988
 GameObject:
   m_ObjectHideFlags: 0
@@ -8673,7 +8895,7 @@ Transform:
   m_Father: {fileID: 557815989}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2088224432
+--- !u!114 &2076417155
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8683,7 +8905,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 57a72d74a258e413bacd504f0fdb611b, type: 3}
-  m_Name: ActionCharPortrait(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_Name: ActionCharPortrait
   m_EditorClassIdentifier: 
   id: 0
   category: 2
@@ -8698,8 +8920,8 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 2
-  skipAction: 9
-  skipActionActual: {fileID: 316024696}
+  skipAction: 2
+  skipActionActual: {fileID: 1775601432}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -8708,18 +8930,18 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 2688
+    y: 508
     width: 300
     height: 198
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
-  parentActionListInEditor: {fileID: 0}
+  parentActionListInEditor: {fileID: 5288749610408716283}
   parameterID: -1
   constantID: 0
   isPlayer: 0
   playerID: -1
   _char: {fileID: 1946801472}
-  newPortraitGraphic: {fileID: 2800000, guid: 76848175be966274c8890c5f8ea10151, type: 3}
+  newPortraitGraphic: {fileID: 2800000, guid: f29abae63302a7249bc1495964901d84, type: 3}
 --- !u!114 &2091392391
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8840,6 +9062,50 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0
+--- !u!114 &2109176940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fadbe8a8547c845659eb5618f68e5019, type: 3}
+  m_Name: ActionInteraction
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 7
+  title: Change interaction
+  description: Enables and disables individual Interactions on a Hotspot.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 1
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 27
+    y: 5178.231
+    width: 300
+    height: 152
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 0}
+  parameterID: -1
+  constantID: 0
+  hotspot: {fileID: 306441866}
+  interactionType: 2
+  changeType: 0
+  number: 0
 --- !u!1 &2110710016
 GameObject:
   m_ObjectHideFlags: 0
@@ -9506,8 +9772,8 @@ MonoBehaviour:
   - {fileID: 234437640}
   - {fileID: 1860823322}
   - {fileID: 100590452}
-  - {fileID: 2008553806}
-  - {fileID: 1257728742}
+  - {fileID: 1869039061}
+  - {fileID: 1760317588}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
@@ -9564,7 +9830,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
-  - {fileID: 1594904073}
+  - {fileID: 1266595287}
   - {fileID: 2110835877}
   - {fileID: 1556223440}
   - {fileID: 1859680213}
@@ -9629,9 +9895,9 @@ MonoBehaviour:
   - {fileID: 1775601432}
   - {fileID: 1492733429}
   - {fileID: 883829483}
-  - {fileID: 1154195758}
-  - {fileID: 1966183258}
-  - {fileID: 1956848300}
+  - {fileID: 2076417155}
+  - {fileID: 1700063887}
+  - {fileID: 573409869}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
@@ -9887,8 +10153,8 @@ MonoBehaviour:
   - {fileID: 984439917}
   - {fileID: 804270266}
   - {fileID: 852947703}
-  - {fileID: 482587868}
-  - {fileID: 474641124}
+  - {fileID: 1199357997}
+  - {fileID: 46125240}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
@@ -10262,11 +10528,12 @@ MonoBehaviour:
   - {fileID: 498951995}
   - {fileID: 1844778156}
   - {fileID: 384432199}
-  - {fileID: 796286093}
-  - {fileID: 886429222}
-  - {fileID: 1299094846}
-  - {fileID: 2088224432}
-  - {fileID: 92871123}
+  - {fileID: 510798900}
+  - {fileID: 1973795983}
+  - {fileID: 1032615665}
+  - {fileID: 1599626765}
+  - {fileID: 156589048}
+  - {fileID: 2109176940}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
