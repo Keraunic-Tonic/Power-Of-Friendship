@@ -153,9 +153,27 @@ MonoBehaviour:
   useAsyncLoading: 0
   loadingDelay: 0
   blackOutWhenInitialising: 1
-  playMusicWhilePaused: 0
+  playMusicWhilePaused: 1
   playAmbienceWhilePaused: 0
-  musicStorages: []
+  musicStorages:
+  - ID: 0
+    audioClip: {fileID: 8300000, guid: db1c93a6efe2c6f45923fd4641074569, type: 3}
+    relativeVolume: 1
+  - ID: 1
+    audioClip: {fileID: 8300000, guid: 1c839fa2a535b1e4585c2731d565dfd3, type: 3}
+    relativeVolume: 1
+  - ID: 2
+    audioClip: {fileID: 8300000, guid: c4cec0291a10dc64d8d27f015f6bffc6, type: 3}
+    relativeVolume: 1
+  - ID: 3
+    audioClip: {fileID: 8300000, guid: ea4d2622de682f7428253cca1618e098, type: 3}
+    relativeVolume: 1
+  - ID: 4
+    audioClip: {fileID: 8300000, guid: d24eb19ed729d334da51e43188bd185f, type: 3}
+    relativeVolume: 1
+  - ID: 5
+    audioClip: {fileID: 8300000, guid: cf62450d7e35f6e46af6204a4d379f43, type: 3}
+    relativeVolume: 1
   ambienceStorages: []
   volumeControl: 0
   musicMixerGroup: {fileID: 0}
