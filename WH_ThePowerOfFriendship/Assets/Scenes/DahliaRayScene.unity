@@ -369,6 +369,50 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ada307c52a1dc4b989fab7d10464c128, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &75708384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fadbe8a8547c845659eb5618f68e5019, type: 3}
+  m_Name: ActionInteraction
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 7
+  title: Change interaction
+  description: Enables and disables individual Interactions on a Hotspot.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 1
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 11
+    y: 927
+    width: 300
+    height: 152
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 0}
+  parameterID: -1
+  constantID: 0
+  hotspot: {fileID: 306441866}
+  interactionType: 2
+  changeType: 0
+  number: 0
 --- !u!114 &75708534
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6313,9 +6357,9 @@ MonoBehaviour:
   comment: 
   numSockets: 1
   willWait: 0
-  endAction: 1
-  skipAction: 3
-  skipActionActual: {fileID: 1859680213}
+  endAction: 2
+  skipAction: 4
+  skipActionActual: {fileID: 75708384}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -6326,7 +6370,7 @@ MonoBehaviour:
     x: 14
     y: 692
     width: 300
-    height: 172
+    height: 192
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 4807942374093509946}
@@ -9502,6 +9546,7 @@ MonoBehaviour:
   - {fileID: 2110835877}
   - {fileID: 1556223440}
   - {fileID: 1859680213}
+  - {fileID: 75708384}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0

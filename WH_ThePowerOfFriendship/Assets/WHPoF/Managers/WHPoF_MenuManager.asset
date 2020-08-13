@@ -2296,7 +2296,7 @@ MonoBehaviour:
   pauseWhenEnabled: 0
   showWhenPaused: 0
   canClickInCutscene: 0
-  enabledOnStart: 0
+  enabledOnStart: 1
   actionListOnTurnOn: {fileID: 0}
   actionListOnTurnOff: {fileID: 0}
   updateWhenFadeOut: 1
@@ -2306,7 +2306,7 @@ MonoBehaviour:
   visibleElements:
   - {fileID: 3244538915567375237}
   transitionProgress: 0
-  appearType: 7
+  appearType: 0
   speechMenuType: 0
   speechMenuLimit: 0
   limitToCharacters: 
